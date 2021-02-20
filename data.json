@@ -1,0 +1,38 @@
+data = {
+  "companies": {
+    "abb": [
+      "ABB",
+      "ABB to światowy dostawca technologii dla energetyki i automatyki. Obecnie swoją działalność prowadzi w ramach czterech globalnych biznesów - Produktów i Systemów Elektryfikacji, Automatyki Przemysłowej, Systemów Napędowych oraz Robotyki i Automatyki Dyskretnej - wspieranych przez wspólną platformę cyfrową ABB Ability- ABB działa w ponad 100 krajach świata i zatrudnia około 147 000 pracowników. Dowiedz się więcej: wvm.abb.com.",
+      8000,
+      "Dołączając do ABB. masz okazję pracować z technologią pozytywnie wpływająca na otaczający nas świat Z nami możesz stać się częścią międzynarodowego środowiska, w którym innowacyjne projekty l praca zespołowa prowadzą do sukcesu. Bez względu na to, czy należysz do grona specjalistów z wieloletnim doświadczeniem, czy początkujących pracowników, w ABB możesz liczyć na rozwoju swoje) kariery.",
+      "Profesjonalizm, nnowacyjnośc, bezpieczeństwo i zaufanie to wartości, które w ABB są podstawą. Oferujemy stabilne zatrudnienie, bogaty pakiet socjalny oraz dajemy szansę na poszerzenie swoich umiejętności. ABB gwarantuje pracę w dynamicznie rozwijającej się firmie o ugruntowanej pozycji na rynku.",
+      [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Bony/bilety/zniżki",
+        "Ubezpieczenia na życie"
+      ],
+      [
+        "Projektowanie",
+        "Inżynieria produkcji",
+        "IT",
+        "Serwis",
+        "Sprzedaż"
+      ],
+      [
+        "Aleksandrów Łódzki/Łódź",
+        "Warszawa",
+        "Wrocław",
+        "Bielsko-Biała"
+      ],
+      [
+        "www.abb.pl/kariera"
+      ],
+      [
+        "Warszawa",
+        "Łódź"
+      ]
+    ]
+  }
+}
