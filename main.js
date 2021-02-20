@@ -8,14 +8,16 @@ const departments = document.querySelector('.departments');
 const branches = document.querySelector('.branches');
 const website = document.querySelector('.website');
 const companyLogo = document.querySelector('.company-logo');
+const company = data.companies.abb[0].toLowerCase();
 
+companyLogo.src = `logos/${company}.png`;
+companyLogo.setAttribute(`alt`, `${company} company logo`);
 companyName.textContent = data.companies.abb[0];
 aboutCompany.textContent = data.companies.abb[1];
 employeesCount.textContent = data.companies.abb[2];
 advantages.textContent = data.companies.abb[3];
 companyValues.textContent = data.companies.abb[4];
-companyLogo.src = `logos/${data.companies.abb[0].toLowerCase()}.png`;
-companyLogo.setAttribute(`alt`, `${data.companies.abb[0].toLowerCase()} company logo`);
+
 for (let i = 0; i < data.companies.abb[5].length; i++) {
   let item = document.createElement('li');
   item.textContent = data.companies.abb[5][i];
