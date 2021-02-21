@@ -33,6 +33,43 @@ data = {
         "Warszawa",
         "Łódź"
       ]
+    ],
+
+    
+    "accenture": [
+      "ACCENTURE",
+      "Jesteśmy ekspertami realizującymi projekty, których nikt nie jest w stanie zrobić albo nie jest w stanie zrobić równie dobrze. Na co dzień pracujemy z najnowszymi technologiami i dotykamy najistotniejszych problemów w biznesie. Nasze 5 obszarów działania - Strategy, Consulting, Digital, Technology oraz Operations tworzą idealny zestaw usług nawet dla najbardziej wymagających klientów.",
+      6000,
+      "Kiedy myślisz o pracy, szukasz miejsca, gdzie będziesz mógł rozwijać się tak szybko, jak świat wokół Ciebie. Uczyć się nowych rzeczy i sprawdzać je w działaniu razem z doświadczonymi mentorami. Poznawać Inne kultury l mieć styczność z ludźmi z całego świata. W Accenture już od pierwszego dnia doświadczasz czegoś nowego. Tu zdobędziesz wiedzę i umiejętności, które zostaną z Tobą na lata.",
+      "Wierzymy w naukę przez działanie. Cenimy przedsiębiorczości l umiejętność pracy w zespole. Ciągle podnosimy sobie poprzeczkę. Chcemy pomagać firmom. aby stały się bardziej nowoczesne i przez to odnosiły sukcesy.",
+      [
+        "Prywatna opieka medyczna", 
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa", 
+        "Dofinansowanie posiłków", 
+        "Ubezpieczenia na życie",
+      ],
+      [
+        "Technology",
+        "Consulting", 
+        "Digital",
+        "Strategy", 
+        "Operations",
+      ],
+      [
+        "Warszawa",
+        "Łódź",
+        "Kraków",
+        "Katowice",
+        "Wrocław",
+      ],
+      [
+        "www.careers.accenu"
+      ],
+      [
+        "Warszawa",
+        "Kraków",
+      ]
     ]
   }
 }
