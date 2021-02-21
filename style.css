@@ -16,17 +16,23 @@ section {
   color: #222;
 }
 
-.company-logo {
-  display: block;
+.company-logo-container {
   width: 340px;
-  margin: 0 auto;
+  margin: 20px auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  width: 340px;
 }
 
 .company-name {
   visibility: hidden;
 }
 
-.article {
+.article-container {
   border-right: 1px dashed gray;
 }
 
