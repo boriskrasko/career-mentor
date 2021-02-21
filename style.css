@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap');
 
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 1024px;
+  margin: 0 auto;
   font-family: 'NunitoSans', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -8,6 +16,42 @@ body {
   color: #222;
 }
 
-.contauner * {
-  border: 1px solid gray;
+.company-logo {
+  display: block;
+  width: 340px;
+  margin: 0 auto;
 }
+
+.company-name {
+  visibility: hidden;
+}
+
+.article {
+  border-right: 1px dashed gray;
+}
+
+.article-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.article-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.article-title {
+  width: 100%;
+  height: 64px;
+  padding: 30px 40px 0;
+  border-bottom: 1px dashed gray;
+}
+
+.article-content {
+  margin-top: 40px;
+}
+
+.article-footer {
+  margin: 40px 0 20px 0;
+}
+
