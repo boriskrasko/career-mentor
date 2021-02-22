@@ -7,6 +7,7 @@ const beneficiary = document.querySelector('.beneficiary');
 const departments = document.querySelector('.departments');
 const branches = document.querySelector('.branches');
 const website = document.querySelector('.website');
+const eventCity = document.querySelector('.event-cities');
 const companyLogo = document.querySelector('.company-logo');
 const company = data.companies.abb[0].toLowerCase();
 
@@ -35,3 +36,5 @@ for (let i = 0; i < data.companies.abb[7].length; i++) {
 }
 website.href = data.companies.abb[8];
 website.textContent = data.companies.abb[8];
+eventCity.textContent = data.companies.abb[9];
+
