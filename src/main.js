@@ -9,11 +9,9 @@ const branches = document.querySelector('.branches');
 const website = document.querySelector('.website');
 const eventCity = document.querySelector('.event-cities');
 const companyLogo = document.querySelector('.company-logo');
-const btn = document.querySelectorAll('.btn');
-const btnText = document.querySelectorAll('.btn-text');
-let company;
 let id = 0;
-
+let company;
+const btn = document.querySelector('.btn');
 
 function showCompany(id) {
   company = data.companies[id][0].toLowerCase().replace(/\s/g, ``);
@@ -43,21 +41,14 @@ function showCompany(id) {
   website.href = data.companies[id][8];
   website.textContent = data.companies[id][8];
   eventCity.textContent = data.companies[id][9];
-  btnText[0].textContent = (id > 0) ? data.companies[id - 1][0] : data.companies[2][0];
-  btnText[1].textContent = (id < 2) ? data.companies[id + 1][0] : data.companies[0][0];
 }
 
 showCompany(id);
 
-for (let i = 0; i < btn.length; i++) {
-  let x = data.companies.length - 1;
-  btn[i].addEventListener('click', () => {
-    beneficiary.innerHTML = ``;
-    departments.innerHTML = ``;
-    branches.innerHTML = ``;
-    id = (i === 0) ? 
-    id > 0 ? id - 1 : x : 
-    id < x ? id + 1 : 0
-    showCompany(id);
-  })
-}
+btn.addEventListener('click', () => {
+  beneficiary.innerHTML = ``;
+  departments.innerHTML = ``;
+  branches.innerHTML = ``;
+  id = (id < data.companies.length - 1) ? id + 1 : 0;
+  showCompany(id);
+})

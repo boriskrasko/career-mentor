@@ -114,34 +114,6 @@ footer {
   margin-top: 10px;
 }
 
-.btns {
-  width: 97%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.btn {
-  outline: none;
-  border: none;
-  background: transparent;
-  color: #222;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.arrow {
-  display: block;
-  font-size: 56px;
-  margin-top: -10px;
-  color: #777;
-}
-
-.btn-text {
-  padding: 0 20px
-}
-
 @media screen and (max-width: 1024px) {
   section{width: 95%}
 }
