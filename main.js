@@ -14,7 +14,7 @@ let company;
 const btn = document.querySelector('.btn');
 
 function showCompany(id) {
-  company = data.companies[id][0].toLowerCase();
+  company = data.companies[id][0].toLowerCase().replace(/\s/g, ``);
   companyLogo.src = `logos/${company}.png`;
   companyLogo.setAttribute(`alt`, `${company} company logo`);
   companyName.textContent = data.companies[id][0];
@@ -49,6 +49,6 @@ btn.addEventListener('click', () => {
   beneficiary.innerHTML = ``;
   departments.innerHTML = ``;
   branches.innerHTML = ``;
-  id = id == 0 ? 1 : 0;
+  id = (id < data.companies.length - 1) ? id + 1 : 0;
   showCompany(id);
 })
