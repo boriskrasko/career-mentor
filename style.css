@@ -1,9 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap');
 
-body {
-    font-family: 'NunitoSans', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #222;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid gray;*/
+}
+
+section {
+  width: 1024px;
+  min-height: 768px;
+  margin: 0 auto;
+  font-family: 'NunitoSans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #222;
+  border-right: 1px dashed gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+.company-logo-container {
+  width: 300px;
+  min-height: 120px;
+  margin: 20px auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  width: 280px;
+}
+
+.company-logo img {
+  width: auto;
+}
+
+.company-name {
+  visibility: hidden;
+}
+
+.article-container {
+  margin: 10px 0 30px;
+  padding: 0 20px 0 0;
+}
+
+.article-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.article-icon {
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.article-icon img {
+  width: 64px;
+  height: 64px;
+  bottom: 0;
+}
+
+.article-title {
+  width: 90%;
+  min-height: 64px;
+  margin: 0 20px;
+  padding: 30px 40px 0;
+  border-bottom: 1px dashed gray;
+}
+
+.article-content {
+  margin-top: 20px;
+}
+
+.article-content p,
+.article-content li {
+  line-height: 25px;
+}
+
+.article-content ul {
+  margin-left: 20px;
+}
+
+.article-footer {
+  margin: 40px 0 20px 0;
+}
+
+.employees-count {
+  font-weight: 100;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-box .article-container {
+  width: 48%;
+}
+
+footer {
+  margin-bottom: 40px;
+}
+
+.event-cities {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  section{width: 95%}
+}
+
+@media screen and (max-width: 768px) {
+  .flex-box .article-container{width: 100%}
+}
