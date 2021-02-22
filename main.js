@@ -52,4 +52,3 @@ btn.addEventListener('click', () => {
   id = id == 0 ? 1 : 0;
   showCompany(id);
 })
-

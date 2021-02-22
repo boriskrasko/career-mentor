@@ -24,7 +24,8 @@ a {
 }
 
 .company-logo-container {
-  width: 340px;
+  width: 300px;
+  height: 100px;
   margin: 20px auto 10px;
   display: flex;
   justify-content: center;
@@ -32,7 +33,7 @@ a {
 }
 
 .company-logo {
-  width: 340px;
+  width: 280px;
 }
 
 .company-name {
@@ -57,7 +58,8 @@ a {
 }
 
 .article-icon img {
-  width: 100%;
+  width: 64px;
+  height: 64px;
   bottom: 0;
 }
 
@@ -106,4 +108,12 @@ footer {
 
 .event-cities {
   margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  section{width: 95%}
+}
+
+@media screen and (max-width: 768px) {
+  .flex-box .article-container{width: 100%}
 }
