@@ -9,6 +9,7 @@
 
 section {
   width: 1024px;
+  min-height: 768px;
   margin: 0 auto;
   font-family: 'NunitoSans', sans-serif;
   font-weight: 300;

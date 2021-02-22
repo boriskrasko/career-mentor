@@ -1,6 +1,6 @@
 data = {
-  "companies": {
-    "abb": [
+  "companies": [
+    [
       "ABB",
       "ABB to światowy dostawca technologii dla energetyki i automatyki. Obecnie swoją działalność prowadzi w ramach czterech globalnych biznesów - Produktów i Systemów Elektryfikacji, Automatyki Przemysłowej, Systemów Napędowych oraz Robotyki i Automatyki Dyskretnej - wspieranych przez wspólną platformę cyfrową ABB Ability- ABB działa w ponad 100 krajach świata i zatrudnia około 147 000 pracowników. Dowiedz się więcej: wvm.abb.com.",
       8000,
@@ -35,7 +35,7 @@ data = {
       ]
     ],
   
-    "accenture": [
+   [
       "ACCENTURE",
       "Jesteśmy ekspertami realizującymi projekty, których nikt nie jest w stanie zrobić albo nie jest w stanie zrobić równie dobrze. Na co dzień pracujemy z najnowszymi technologiami i dotykamy najistotniejszych problemów w biznesie. Nasze 5 obszarów działania - Strategy, Consulting, Digital, Technology oraz Operations tworzą idealny zestaw usług nawet dla najbardziej wymagających klientów.",
       6000,
@@ -70,5 +70,5 @@ data = {
         "Kraków",
       ]
     ]
-  }
+  ]
 }
