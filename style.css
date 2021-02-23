@@ -7,6 +7,10 @@
   /*border: 1px solid gray;*/
 }
 
+body {
+  background-image: url(pages/repeat-white-background-waves.jpg);
+}
+
 section {
   width: 1024px;
   min-height: 768px;
@@ -17,10 +21,12 @@ section {
   line-height: 1.4;
   color: #222;
   border-right: 1px dashed gray;
+  background: #fff8;
 }
 
 a {
   text-decoration: none;
+  color: blue;
 }
 
 .header {
@@ -49,10 +55,30 @@ a {
 }
 
 .header-title {
+  display: flex;
+  justify-content: flex-start;
   width: 90%;
   min-height: 48px;
   margin: 0 20px;
-  padding: 20px 40px 10px;
+  padding: 20px 0px 10px 0;
+}
+
+.header-title h3 {
+  margin-right: 20px;
+}
+
+.homepage {
+   width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-left: 2px solid #444;
+}
+
+.homepage img {
+  width: 36px;
+  height: 36px;
+  bottom: 0;
 }
 
 

@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid gray;*/
+  border: 1px solid gray;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
   font-weight: 300;
   color: #222;
   background: rgb(236, 236, 236);
+  background-image: url(repeat-white-background-waves.jpg);
 }
 
 .header {
@@ -31,7 +32,7 @@ body {
   font-size: 24px;
   color: #222;
   padding: 0 15px;
-  background: linear-gradient(rgb(255, 255, 255), rgb(236, 236, 236));
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgb(236, 236, 236));
 }
 
 a {
@@ -41,6 +42,18 @@ a {
 
 ul {
   list-style: none;
+}
+
+.topnav img {
+  margin-left: 40px;
+  width: 24px;
+}
+
+.topnav div a {
+  width: 100%;
+  display: flex;
+  height: 25px;
+  justify-content: space-between;
 }
 
 .title {
@@ -141,7 +154,7 @@ article footer h3 sup {
   color: #444;
 }
 
-.autors {
+.autors, .topnav {
   display: flex;
   justify-content: space-between;
   border-top: 2px solid gray;
@@ -149,12 +162,13 @@ article footer h3 sup {
   padding: 10px 0;
 }
 
-.autors div:not(:last-child) {
+.autors div:not(:last-child),
+.topnav div:not(:last-child) {
   border-right: 2px solid gray;
 }
 
-.autors div{
-  width: 25%;
+.autors div, .topnav div {
+  min-width: 250px;
   padding: 0 10px;
   display: flex;
   flex-direction: column;
@@ -164,12 +178,11 @@ article footer h3 sup {
   font-weight: 500;
 }
 
-.autors h3 {
+.autors h3, .topnav h3 {
   font-size: 1em;
   color: rgb(28, 120, 190);
   font-weight: 400;
 }
-
 
 .footer {
   font-family: 'NunitoSans', sans-serif;
@@ -179,6 +192,35 @@ article footer h3 sup {
   margin: 20px auto 40px;
   display: flex;
   justify-content: flex-start;
+}
+
+.dropdown-container {
+  line-height: 25px;
+  font-size: 0.9em;
+  font-weight: 500;
+  min-width: 250px; 
+  margin: 0 0 0  -15px;
+  padding: 20px 0;
+  position: absolute;
+  top: 35px;
+  background: #efefeff9;
+  border-radius: 8px;
+}
+
+.dropdown-container {
+  transition: 0.2s opacity ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdown-container li img {
+  width: 82px;
+  cursor: pointer;
+}
+
+.topnav div:hover .dropdown-container {
+  visibility: visible;
+  opacity: 1;
 }
 
 @media screen and (max-width: 500px) {
