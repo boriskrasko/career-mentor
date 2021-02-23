@@ -40,9 +40,13 @@ function showCompany(id) {
     item.textContent = data.companies[id][7][i];
     branches.appendChild(item);
   }
+  for (let i = 0; i < data.companies[id][9].length; i++) {
+    let item = document.createElement('span');
+    item.textContent = `${data.companies[id][9][i]} `;
+    eventCity.appendChild(item);
+  }
   website.href = data.companies[id][8];
   website.textContent = data.companies[id][8];
-  eventCity.textContent = data.companies[id][9];
   btnText[0].textContent = (id > 0) ? data.companies[id - 1][0] : data.companies[2][0];
   btnText[1].textContent = (id < 2) ? data.companies[id + 1][0] : data.companies[0][0];
 }
@@ -55,6 +59,7 @@ for (let i = 0; i < btn.length; i++) {
     beneficiary.innerHTML = ``;
     departments.innerHTML = ``;
     branches.innerHTML = ``;
+    eventCity.innerHTML = ``;
     id = (i === 0) ? 
     id > 0 ? id - 1 : x : 
     id < x ? id + 1 : 0
