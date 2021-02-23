@@ -4,10 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid gray;*/
+  /*border: 1px solid gray;*/s
 }
 
 body {
+  min-width: 320px;
   background-image: url(pages/repeat-white-background-waves.jpg);
 }
 
@@ -26,7 +27,7 @@ section {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: #0af;
 }
 
 .header {
@@ -44,14 +45,13 @@ a {
   width: 64px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   border-right: 2px solid #444;
 }
 
 .header-icon img {
-  width: 36px;
-  height: 36px;
-  bottom: 0;
+  width: 28px;
+  height: 28px;
 }
 
 .header-title {
@@ -68,19 +68,17 @@ a {
 }
 
 .homepage {
-   width: 64px;
+  width: 64px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   border-left: 2px solid #444;
 }
 
 .homepage img {
-  width: 36px;
-  height: 36px;
-  bottom: 0;
+  width: 28px;
+  height: 28px;
 }
-
 
 .company-logo-container {
   width: 300px;
@@ -201,6 +199,10 @@ a {
   padding: 0 20px
 }
 
+.btn:hover .btn-text {
+  color: #0af;
+}
+
 .footer {
   font-family: 'NunitoSans', sans-serif;
   font-weight: 400;
@@ -217,4 +219,8 @@ a {
 
 @media screen and (max-width: 768px) {
   .flex-box .article-container{width: 100%}
+}
+
+@media screen and (max-width: 420px) {
+  .header-title{font-size: 12px;}
 }
