@@ -83,6 +83,10 @@ span {
   color: var(--amazon-orange)
 }
 
+.content {
+  color: #fff;
+}
+
 .footer {
   display: flex;
   justify-content: flex-end;
