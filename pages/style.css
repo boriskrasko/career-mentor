@@ -13,7 +13,7 @@
 }
 
 body {
-  width: 1024px;
+  max-width: 1024px;
   min-height: 768px;
   margin: 0 auto;
   font-family: 'Source Sans Pro', sans-serif;
@@ -22,7 +22,7 @@ body {
   background: rgb(236, 236, 236);
 }
 
-header {
+.header {
   margin-left: 40px;
   max-width: 1000px;
   margin: 0 auto;
@@ -39,7 +39,11 @@ a {
   color: #111;
 }
 
-h1 {
+ul {
+  list-style: none;
+}
+
+.title {
   font-size: 5em;
   font-weight: 600;
   background: linear-gradient(to right, rgb(24, 82, 190), rgb(28, 200, 190));
@@ -47,19 +51,19 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-h2 {
+.subtitle {
   font-size: 2em;
   font-weight: 400;
   color: #444;
 }
 
-h3 {
+.link {
   font-family: 'Museo', serif;
   font-size: 2.8em;
   font-weight: bold;
 }
 
-h3:hover {
+.link:hover {
   background: linear-gradient(to right, rgb(24, 82, 190), rgb(28, 200, 190));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -70,7 +74,111 @@ hr {
 }
 
 .start-screen img {
+  padding: 0 12px;
   width: 100%;
+}
+
+main section {
+  padding: 40px;
+}
+
+main article {
+  padding: 0 20px;
+}
+
+main h2 {
+  font-size: 2em;
+  text-align: center;
+  color: rgb(28, 120, 190);
+}
+
+main p {
+  font-size: 1em;
+  color: #222;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.56px;
+  margin: 20px 0;
+}
+
+article footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background: #999;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.regards {
+  font-size: 1.2em;
+  color: rgb(28, 120, 190);
+  font-weight: 400;
+}
+
+article footer {
+  line-height: 40px;
+}
+
+article footer h3 {
+  font-family: 'Museo', serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #222;
+}
+
+article footer h3 sup {
+  font-weight: lighter;
+  text-decoration: underline;
+  color: #444;
+}
+
+.autors {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 10px 0;
+}
+
+.autors div:not(:last-child) {
+  border-right: 2px solid gray;
+}
+
+.autors div{
+  width: 25%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 25px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.autors h3 {
+  font-size: 1em;
+  color: rgb(28, 120, 190);
+  font-weight: 400;
+}
+
+
+.footer {
+  font-family: 'NunitoSans', sans-serif;
+  font-weight: 400;
+  color: #444;
+  max-width: 1024px;
+  margin: 20px auto 40px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 500px) {
