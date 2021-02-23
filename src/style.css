@@ -4,12 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid gray;*/s
-}
-
-body {
-  min-width: 320px;
-  background-image: url(pages/repeat-white-background-waves.jpg);
+  /*border: 1px solid gray;*/
 }
 
 section {
@@ -22,62 +17,10 @@ section {
   line-height: 1.4;
   color: #222;
   border-right: 1px dashed gray;
-  background: #fff8;
 }
 
 a {
   text-decoration: none;
-  color: #0af;
-}
-
-.header {
-  font-family: 'NunitoSans', sans-serif;
-  font-weight: 400;
-  color: #444;
-  width: 1024px;
-  margin: 0 auto 20px;
-  border: 2px solid #444;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.header-icon {
-  width: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 2px solid #444;
-}
-
-.header-icon img {
-  width: 28px;
-  height: 28px;
-}
-
-.header-title {
-  display: flex;
-  justify-content: flex-start;
-  width: 90%;
-  min-height: 48px;
-  margin: 0 20px;
-  padding: 20px 0px 10px 0;
-}
-
-.header-title h3 {
-  margin-right: 20px;
-}
-
-.homepage {
-  width: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-left: 2px solid #444;
-}
-
-.homepage img {
-  width: 28px;
-  height: 28px;
 }
 
 .company-logo-container {
@@ -163,64 +106,18 @@ a {
   width: 48%;
 }
 
-.section-footer {
-  margin-bottom: 20px;
+footer {
+  margin-bottom: 40px;
 }
 
 .event-cities {
   margin-top: 10px;
 }
 
-.btns {
-  width: 97%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.btn {
-  outline: none;
-  border: none;
-  background: transparent;
-  color: #222;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.arrow {
-  display: block;
-  font-size: 56px;
-  margin-top: -10px;
-  color: #777;
-}
-
-.btn-text {
-  padding: 0 20px
-}
-
-.btn:hover .btn-text {
-  color: #0af;
-}
-
-.footer {
-  font-family: 'NunitoSans', sans-serif;
-  font-weight: 400;
-  color: #444;
-  width: 1024px;
-  margin: 20px auto 40px;
-  display: flex;
-  justify-content: flex-start;
-}
-
 @media screen and (max-width: 1024px) {
-  section, .header, .footer{width: 95%}
+  section{width: 95%}
 }
 
 @media screen and (max-width: 768px) {
   .flex-box .article-container{width: 100%}
-}
-
-@media screen and (max-width: 420px) {
-  .header-title{font-size: 12px;}
 }
