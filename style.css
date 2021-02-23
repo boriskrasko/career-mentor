@@ -23,6 +23,39 @@ a {
   text-decoration: none;
 }
 
+.header {
+  font-family: 'NunitoSans', sans-serif;
+  font-weight: 400;
+  color: #444;
+  width: 1024px;
+  margin: 0 auto 20px;
+  border: 2px solid #444;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-icon {
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-right: 2px solid #444;
+}
+
+.header-icon img {
+  width: 36px;
+  height: 36px;
+  bottom: 0;
+}
+
+.header-title {
+  width: 90%;
+  min-height: 48px;
+  margin: 0 20px;
+  padding: 20px 40px 10px;
+}
+
+
 .company-logo-container {
   width: 300px;
   min-height: 120px;
@@ -106,8 +139,8 @@ a {
   width: 48%;
 }
 
-footer {
-  margin-bottom: 40px;
+.section-footer {
+  margin-bottom: 20px;
 }
 
 .event-cities {
@@ -142,8 +175,18 @@ footer {
   padding: 0 20px
 }
 
+.footer {
+  font-family: 'NunitoSans', sans-serif;
+  font-weight: 400;
+  color: #444;
+  width: 1024px;
+  margin: 20px auto 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
 @media screen and (max-width: 1024px) {
-  section{width: 95%}
+  section, .header, .footer{width: 95%}
 }
 
 @media screen and (max-width: 768px) {
