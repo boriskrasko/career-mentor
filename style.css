@@ -12,9 +12,9 @@ body {
   background-image: url(pages/repeat-white-background-waves.jpg);
 }
 
-section {
+.section, .table-contents {
   width: 1024px;
-  min-height: 768px;
+  min-height: 80vh;
   margin: 0 auto;
   font-family: 'NunitoSans', sans-serif;
   font-weight: 300;
@@ -24,6 +24,38 @@ section {
   border-right: 1px dashed gray;
   background: #fff8;
 }
+
+.table-contents {
+  position: relative;
+  z-index: 1;
+  display: none;
+  background-size: contain;
+}
+
+.table-contents::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: 0.05; 
+  z-index: -1;
+  background: url(images/absolvent.png);
+  background-size: 50%;
+  background-position: center center;
+}
+
+.table-contents li:hover {
+  cursor: pointer;
+  color:#0af;
+}
+
+.all {
+  color: #0af;
+  cursor: pointer;
+}
+
 
 a {
   text-decoration: none;
