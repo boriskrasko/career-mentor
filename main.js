@@ -11,6 +11,10 @@ const eventCity = document.querySelector('.event-cities');
 const companyLogo = document.querySelector('.company-logo');
 const btn = document.querySelectorAll('.btn');
 const btnText = document.querySelectorAll('.btn-text');
+const all = document.querySelector('.all');
+const section = document.querySelector('.section');
+const companyList = document.querySelector('.company-list');
+const tableContents = document.querySelector('.table-contents');
 let company;
 let id = 0;
 
@@ -52,6 +56,25 @@ function showCompany(id) {
 }
 
 showCompany(id);
+
+all.addEventListener('click', () => {
+  section.style.display = `none`;
+  tableContents.style.display = `block`;
+  all.style.display = `none`;
+
+  for (let i = 0; i < data.companies.length; i ++) {
+    let item = document.createElement('li');
+    item.textContent = `${data.companies[i][0]}`;
+    companyList.appendChild(item);
+    item.addEventListener('click', () => {
+      companyList.innerHTML = ``;
+      tableContents.style.display = `none`;
+      section.style.display = `block`;
+      all.style.display = `block`;
+      showCompany(i); 
+    });
+  }
+});
 
 for (let i = 0; i < btn.length; i++) {
   let x = data.companies.length - 1;
