@@ -8,11 +8,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  /*border: 1px solid gray;*/
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
   background: rgb(6, 43, 64);
   font-family: 'Source Sans Pro', Roboto, sans-serif;
@@ -24,6 +27,7 @@ span {
 
 .flex-container {
   display: flex;
+  width: 98%;
 }
 
 .flex-start {
@@ -48,15 +52,15 @@ span {
   display: block;
   width: 100%;
   color: #fff;
-  font-size: 3.4rem;
+  font-size: 4.4rem;
   font-weight: 200;
   white-space: nowrap;
-  margin-left: 120px;
+  margin-left: 220px;
 }
 
 .header-logo {
-  width: 200px;
-  margin-left: -1.5%;
+  width: 25%;
+  margin: 0 0 1% -1.5%;
 }
 
 .logo {
@@ -76,7 +80,7 @@ span {
 }
 
 .aside-image {
-  width: 100%;
+  width: 90%;
 }
 
 .section {
@@ -91,7 +95,8 @@ span {
   font-size: 4.4rem;
   font-weight: 200;
   text-align: right;
-  color: var(--amazon-orange)
+  color: var(--amazon-orange);
+  margin-top: 6%;
 }
 
 hr {
@@ -116,4 +121,28 @@ hr {
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+.footer-link a:hover {
+  color: #ddd;
+}
+
+@media screen and (max-width: 1024px) {
+  html{font-size: 15px !important}
+}
+
+@media screen and (max-width: 764px) {
+  html{font-size: 14px !important}
+}
+
+@media screen and (max-width: 540px) {
+  html{font-size: 12px !important}
+}
+
+@media screen and (max-width: 500px) {
+  html{font-size: 10px !important}
+}
+
+@media screen and (max-width: 400px) {
+  html{font-size: 8px !important}
 }
