@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+:root {
+  --amazon-orange: rgb(255, 150, 0);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: rgb(6, 43, 64);
+  font-family: 'Source Sans Pro', Roboto, sans-serif;
+}
+
+span {
+  color: var(--amazon-orange);
+}
+
+.flex-container {
+  display: flex;
+  width: 98%;
+}
+
+.flex-start {
+  width: 90%;
+  padding: 2%;
+}
+
+.flex-end {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 280px;
+  background: var(--amazon-orange);
+}
+
+.rotate-container {
+  transform: rotate(90deg);
+}
+
+.rotate-text {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 4.4rem;
+  font-weight: 200;
+  white-space: nowrap;
+  margin-left: 220px;
+}
+
+.header-logo {
+  width: 25%;
+  margin: 0 0 1% -1.5%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.start-screen-image {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+}
+
+.aside {
+  width: 30%;
+}
+
+.aside-image {
+  width: 90%;
+}
+
+.section {
+  width: 70%;
+}
+
+.article {
+  width: 100%;
+}
+
+.title {
+  font-size: 4.4rem;
+  font-weight: 200;
+  text-align: right;
+  color: var(--amazon-orange);
+  margin-top: 6%;
+}
+
+hr {
+  color: #fff;
+}
+
+.content {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 300;
+  padding: 2%;
+  letter-spacing: 0.075rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-link a {
+  color: var(--amazon-orange);
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.footer-link a:hover {
+  color: #ddd;
+}
+
+@media screen and (max-width: 1024px) {
+  html{font-size: 15px !important}
+}
+
+@media screen and (max-width: 764px) {
+  html{font-size: 14px !important}
+}
+
+@media screen and (max-width: 540px) {
+  html{font-size: 12px !important}
+}
+
+@media screen and (max-width: 500px) {
+  html{font-size: 10px !important}
+}
+
+@media screen and (max-width: 400px) {
+  html{font-size: 8px !important}
+}
