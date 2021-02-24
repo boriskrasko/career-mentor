@@ -229,6 +229,10 @@ article footer h3 sup {
   visibility: hidden;
 }
 
+.dropdown-container li {
+  margin: 10px 0;
+}
+
 .dropdown-container li img {
   width: 82px;
   cursor: pointer;

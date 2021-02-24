@@ -161,6 +161,16 @@ a {
   margin: 0 auto;
 }
 
+.back {
+  text-decoration: none; 
+  font-size: 24px; 
+  color: #444;
+}
+
+.back:hover {
+  color: var(--millenium-pink);
+}
+
 @media screen and (max-width: 768px) {
   html{font-size: 15px;}
   .title{font-size: 3rem}
