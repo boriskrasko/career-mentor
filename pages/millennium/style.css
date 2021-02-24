@@ -1,0 +1,170 @@
+:root {
+  --millenium-pink: rgb(198, 0, 82);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  /*border: 1px solid gray;*/
+}
+
+html {
+  font-size: 16px
+}
+
+body {
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #bbb;
+}
+
+.header {
+  padding: 4% 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #fff, #777);
+  z-index: 0;
+}
+
+.title {
+  color: var(--millenium-pink);
+  font-weight: 100;
+  font-size: 4.4rem;
+}
+
+.start-screen {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.start-menu {
+  width: 50%;
+}
+
+.start-image {
+  min-width: 180px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 2;
+  margin:0 auto;
+}
+
+.start-image img {
+  width: 100%;
+}
+
+.fold-out-menu {
+  width: 45px;
+  margin-top: 10%; 
+}
+
+.fold-out-menu span {
+  display: block;
+  margin: 5px 0;
+  width: 45px;
+  height: 7px;
+  border-radius: 5px;
+  background: var(--millenium-pink);
+}
+
+.mouse-arrow {
+  width: 50px;
+  margin: -20px 40px 0;
+}
+
+.mouse-arrow img {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  margin-top: 10px; 
+  color: #fff;
+  width: 280px;
+  height: 200px;
+  padding: 2% 20px;
+  background: var(--millenium-pink);
+  z-index: 1;
+}
+
+.banner ul {
+  padding: 8%;
+  line-height: 28px;
+}
+
+.blocks {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.grid {
+  margin: -140px 0 0 -125px;
+  position: absolute;
+  z-index: 0;
+}
+
+.blocks div {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to top right, #f006, #f004)
+}
+
+.blocks div:last-child {
+  background: linear-gradient(to top right, #f004, #f002)
+}
+
+.blocks div:hover {
+  box-shadow: 1px 1px 10px 1px #555;
+}
+
+.main {
+  position: relative;
+  background: var(--millenium-pink);
+  font-weight: lighter;
+  color: #fff;
+  padding: 4% 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+  border-top: 10px solid #aaa;
+}
+
+.main p {
+  line-height: 28px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.footer {
+  background: var(--millenium-pink);
+}
+
+.footer-logo {
+  padding: 4% 10%;
+}
+
+.logo {
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  html{font-size: 15px;}
+  .title{font-size: 3rem}
+}
+
+@media screen and (max-width: 499px) {
+  html{font-size: 14px}
