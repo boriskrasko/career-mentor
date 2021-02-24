@@ -7,3 +7,6 @@
 ![](https://boriskrasko.github.io/career-mentor/images/start.png)
 
 ![](https://boriskrasko.github.io/career-mentor/images/index.png)
+
+![](https://boriskrasko.github.io/career-mentor/pages/amazon/amazon.png)
+
