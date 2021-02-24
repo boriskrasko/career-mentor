@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 :root {
   --amazon-orange: rgb(255, 150, 0);
 }
@@ -6,13 +8,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  border: 1px solid gray;
+  /*border: 1px solid gray;*/
 }
 
 body {
-  max-width: 1280px;
+  max-width: 1024px;
   margin: 0 auto;
   background: rgb(6, 43, 64);
+  font-family: 'Source Sans Pro', Roboto, sans-serif;
 }
 
 span {
@@ -43,12 +46,17 @@ span {
 
 .rotate-text {
   display: block;
-  width: 400px;
+  width: 100%;
   color: #fff;
+  font-size: 3.4rem;
+  font-weight: 200;
+  white-space: nowrap;
+  margin-left: 120px;
 }
 
 .header-logo {
   width: 200px;
+  margin-left: -1.5%;
 }
 
 .logo {
@@ -80,11 +88,22 @@ span {
 }
 
 .title {
+  font-size: 4.4rem;
+  font-weight: 200;
+  text-align: right;
   color: var(--amazon-orange)
 }
 
-.content {
+hr {
   color: #fff;
+}
+
+.content {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 300;
+  padding: 2%;
+  letter-spacing: 0.075rem;
 }
 
 .footer {
@@ -95,4 +114,6 @@ span {
 .footer-link a {
   color: var(--amazon-orange);
   text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
