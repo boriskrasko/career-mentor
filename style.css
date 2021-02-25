@@ -246,7 +246,7 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-  section, .header, .footer{width: 95%}
+  .section, .header, .footer{width: 95%}
 }
 
 @media screen and (max-width: 768px) {
