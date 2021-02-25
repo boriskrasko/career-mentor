@@ -126,6 +126,7 @@ a {
 
 .company-logo {
   max-height: 120px;
+  max-width: 300px;
 }
 
 .article-container {

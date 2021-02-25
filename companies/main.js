@@ -49,8 +49,8 @@ function showCompany(id) {
   }
   website.href = data.companies[id][8];
   website.textContent = data.companies[id][8];
-  btnText[0].textContent = (id > 0) ? data.companies[id - 1][0] : data.companies[2][0];
-  btnText[1].textContent = (id < 2) ? data.companies[id + 1][0] : data.companies[0][0];
+  btnText[0].textContent = (id > 0) ? data.companies[id - 1][0] : data.companies[5][0];
+  btnText[1].textContent = (id < 5) ? data.companies[id + 1][0] : data.companies[0][0];
 }
 
 showCompany(id);
