@@ -102,6 +102,36 @@ data = {
         "Łódź"
       ]
 
+    ],
+    [
+      "AMWAY",
+      "Amway Business Services Center provides state of the art se^ice to corpora operations across Europe, India and Africa. From graduates to qualified experts  we hire the best professionals in the fields of Finance. Customer Service, Marketing and IT. Here, you have the opportunity to add value and be valued. ",
+      400,
+      "Here you can work with exceptional people, gain experience within international environment, develop your skills and contribute to various projects outside of regular responsibilities. You can participate in integration events or gain knowledge via our Training Program, Language Training or Amway University We also support various after-work initiatives (Basketball team. Hiking trips and Wakeboarding). ",
+      "We are multinational and multicultural team, almost 30 languages are used in Amway on daily basis. We speak all European languages. We believe that cultural and language diversification have a strong international value and can also bring a lot of amazing initiatives. For example, our cyclical International Days to celebrate a different country's day where we can learn more about its culture, cuisine and language. ",
+      [
+        "Private health care",
+        "Courses/conferences",
+        "Sports card",
+        "Integration trips",
+        "Life insurance"
+      ],
+      [
+        "Customer Service",
+        "Finance",
+        "IT",
+        "Marketing",
+        "HR",
+      ],
+      [
+        "Kraków",
+      ],
+      [
+        "www.amway.appmanager.pl"
+      ],
+      [
+        "Kraków"
+      ]
     ]
   ]
 }
