@@ -1,4 +1,3 @@
-const companyName = document.querySelector('.company-name');
 const aboutCompany = document.querySelector('.about-company');
 const employeesCount = document.querySelector('.employees-count');
 const advantages = document.querySelector('.advantages');
@@ -23,7 +22,6 @@ function showCompany(id) {
   company = data.companies[id][0].toLowerCase().replace(/\s/g, ``);
   companyLogo.src = `logos/${company}.png`;
   companyLogo.setAttribute(`alt`, `${company} company logo`);
-  companyName.textContent = data.companies[id][0];
   aboutCompany.textContent = data.companies[id][1];
   employeesCount.textContent = data.companies[id][2];
   advantages.textContent = data.companies[id][3];
