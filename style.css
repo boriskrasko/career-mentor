@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid gray;*/s
+  /*border: 1px solid gray;*/
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   font-size: 15px;
   line-height: 1.4;
   color: #222;
-  border-right: 1px dashed gray;
+  border-right: 1px dashed #eee;
   background: #fff8;
 }
 
@@ -56,6 +56,9 @@ body {
   cursor: pointer;
 }
 
+h3 {
+  color: #222;
+}
 
 a {
   text-decoration: none;
@@ -68,7 +71,7 @@ a {
   color: #444;
   width: 1024px;
   margin: 0 auto 20px;
-  border: 2px solid #444;
+  border: 2px solid #ddd;
   display: flex;
   justify-content: flex-start;
 }
@@ -78,7 +81,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 2px solid #444;
+  border-right: 2px solid #ddd;
 }
 
 .header-icon img {
@@ -90,13 +93,13 @@ a {
   display: flex;
   justify-content: flex-start;
   width: 90%;
-  min-height: 48px;
   margin: 0 20px;
-  padding: 20px 0px 10px 0;
+  padding: 10px 0px 10px 0;
 }
 
 .header-title h3 {
   margin-right: 20px;
+  font-size: 0.9rem
 }
 
 .homepage {
@@ -104,7 +107,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 2px solid #444;
+  border-left: 2px solid #ddd;
 }
 
 .homepage img {
@@ -114,23 +117,15 @@ a {
 
 .company-logo-container {
   width: 300px;
-  min-height: 120px;
-  margin: 20px auto 10px;
+  height: 120px;
+  margin: 5px auto 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .company-logo {
-  width: 280px;
-}
-
-.company-logo img {
-  width: auto;
-}
-
-.company-name {
-  visibility: hidden;
+  max-height: 120px;
 }
 
 .article-container {
@@ -144,24 +139,27 @@ a {
 }
 
 .article-icon {
-  width: 64px;
+  width: 32px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
 .article-icon img {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   bottom: 0;
 }
 
 .article-title {
   width: 90%;
-  min-height: 64px;
-  margin: 0 20px;
-  padding: 30px 40px 0;
-  border-bottom: 1px dashed gray;
+  min-height: 32px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px dashed #bbb;s
 }
 
 .article-content {
@@ -246,11 +244,11 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-  .section, .header, .footer{width: 95%}
+  .section, .header, .footer, .table-contents{width: 95%}
 }
 
 @media screen and (max-width: 768px) {
-  .flex-box .article-container{width: 100%}
+  .flex-box .article-container, .table-contents{width: 100%}
 }
 
 @media screen and (max-width: 420px) {
