@@ -1,0 +1,107 @@
+data = {
+  "companies": [
+    [
+      "ABB",
+      "ABB to światowy dostawca technologii dla energetyki i automatyki. Obecnie swoją działalność prowadzi w ramach czterech globalnych biznesów - Produktów i Systemów Elektryfikacji, Automatyki Przemysłowej, Systemów Napędowych oraz Robotyki i Automatyki Dyskretnej - wspieranych przez wspólną platformę cyfrową ABB Ability- ABB działa w ponad 100 krajach świata i zatrudnia około 147 000 pracowników. Dowiedz się więcej: wvm.abb.com.",
+      8000,
+      "Dołączając do ABB. masz okazję pracować z technologią pozytywnie wpływająca na otaczający nas świat Z nami możesz stać się częścią międzynarodowego środowiska, w którym innowacyjne projekty l praca zespołowa prowadzą do sukcesu. Bez względu na to, czy należysz do grona specjalistów z wieloletnim doświadczeniem, czy początkujących pracowników, w ABB możesz liczyć na rozwoju swoje) kariery.",
+      "Profesjonalizm, nnowacyjnośc, bezpieczeństwo i zaufanie to wartości, które w ABB są podstawą. Oferujemy stabilne zatrudnienie, bogaty pakiet socjalny oraz dajemy szansę na poszerzenie swoich umiejętności. ABB gwarantuje pracę w dynamicznie rozwijającej się firmie o ugruntowanej pozycji na rynku.",
+      [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Bony/bilety/zniżki",
+        "Ubezpieczenia na życie"
+      ],
+      [
+        "Projektowanie",
+        "Inżynieria produkcji",
+        "IT",
+        "Serwis",
+        "Sprzedaż"
+      ],
+      [
+        "Aleksandrów Łódzki/Łódź",
+        "Warszawa",
+        "Wrocław",
+        "Bielsko-Biała"
+      ],
+      [
+        "www.abb.pl/kariera"
+      ],
+      [
+        "Warszawa",
+        "Łódź"
+      ]
+    ],
+  
+   [
+      "ACCENTURE",
+      "Jesteśmy ekspertami realizującymi projekty, których nikt nie jest w stanie zrobić albo nie jest w stanie zrobić równie dobrze. Na co dzień pracujemy z najnowszymi technologiami i dotykamy najistotniejszych problemów w biznesie. Nasze 5 obszarów działania - Strategy, Consulting, Digital, Technology oraz Operations tworzą idealny zestaw usług nawet dla najbardziej wymagających klientów.",
+      6000,
+      "Kiedy myślisz o pracy, szukasz miejsca, gdzie będziesz mógł rozwijać się tak szybko, jak świat wokół Ciebie. Uczyć się nowych rzeczy i sprawdzać je w działaniu razem z doświadczonymi mentorami. Poznawać Inne kultury l mieć styczność z ludźmi z całego świata. W Accenture już od pierwszego dnia doświadczasz czegoś nowego. Tu zdobędziesz wiedzę i umiejętności, które zostaną z Tobą na lata.",
+      "Wierzymy w naukę przez działanie. Cenimy przedsiębiorczości l umiejętność pracy w zespole. Ciągle podnosimy sobie poprzeczkę. Chcemy pomagać firmom. aby stały się bardziej nowoczesne i przez to odnosiły sukcesy.",
+      [
+        "Prywatna opieka medyczna", 
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa", 
+        "Dofinansowanie posiłków", 
+        "Ubezpieczenia na życie",
+      ],
+      [
+        "Technology",
+        "Consulting", 
+        "Digital",
+        "Strategy", 
+        "Operations",
+      ],
+      [
+        "Warszawa",
+        "Łódź",
+        "Kraków",
+        "Katowice",
+        "Wrocław",
+      ],
+      [
+        "www.careers.accenu"
+      ],
+      [
+        "Warszawa",
+        "Kraków",
+      ]
+    ],
+    [
+      "AGENCJA WYWIADU",
+      "Agencja Wywiadu Jest służbą specjalną odpowiedzialną za pozyskiwanie ekskluzywnych Informacji istotnych z punktu bezpieczeństwa zewnętrznego Rzeczypospolitej Polskiej. Informacje i analizy tworzone przez oficerów AgencjI Wywiadu trafIają bezpośrednio do najważniejszych organów państwowych w kraju. Pozwala to na podejmowanie strategicznych decyzji, które przyczyniają się do utrzymania bezpieczeństwa państwa oraz wzmocnienia pozycji RP na arenie międzynarodowej.",
+      65000,
+      "Dlaczego warto z nami pracować? Ponieważ praca w Agencji Wywiadu to służba w cieniu dla Polski. Oferujemy zdecydowanie najciekawszą pracę na rynku w interesującym i dynamicznie zmiennym środowisku. Zapewniamy możliwość stałego rozwoju oraz podnoszenia kwalifikacji zawodowych. Poszukujemy osób zmotywowanych, kreatywnych i ciekawych świata. Osób, które potrafią wyjść poza Utarte schematy, podejmując wyzwania możliwe do realizacji jedynie w Agencji Wywiadu",
+      "Etos oficera polskiego wywiadu nierozerwalnie wiąże się z silnym poczuciem patriotyzmu, dyskrecją l profesjonalizmem. Wychodząc od najlepszych praktyk obowiązujących w instytucjach administracji państwowej oraz doświadczeń wiodących służb partnerskich, tworzymy własne standardy dopasowane do wyjątkowych zadań stawianych przed Agencją Wywiadu. Dbamy o dobra atmosferę i efektywną komunikację pomiędzy wszystkimi oficerami niezależnie od ich stażu oraz doświadczenia.",
+      [
+        "Unikatowy system szkoleń w kraju i zagranicą",
+        "Możliwość nauki j doskonalenia języków obcych",
+        "Możliwość zmiany środowiska pracy w ramach organizacji", 
+        "Atrakcyiny system premiowania", 
+        "Opieka medyczna"
+      ],
+      [
+      
+      ],
+      [
+        "Warszawa"
+      ],
+      [
+        "www.aw.gov.pl"
+      ],
+      [
+        "Gdansk/Sopot",
+        "Poznań", 
+        "Kraków", 
+        "Katowice", 
+        "Wrocław", 
+        "Warszawa", 
+        "Łódź"
+      ]
+
+    ]
+  ]
+}
