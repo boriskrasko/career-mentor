@@ -1,5 +1,6 @@
 data = {
   "companies": [
+
     [
       "ABB",
       "ABB to światowy dostawca technologii dla energetyki i automatyki. Obecnie swoją działalność prowadzi w ramach czterech globalnych biznesów - Produktów i Systemów Elektryfikacji, Automatyki Przemysłowej, Systemów Napędowych oraz Robotyki i Automatyki Dyskretnej - wspieranych przez wspólną platformę cyfrową ABB Ability- ABB działa w ponad 100 krajach świata i zatrudnia około 147 000 pracowników. Dowiedz się więcej: wvm.abb.com.",
@@ -102,6 +103,104 @@ data = {
         "Łódź"
       ]
 
-    ]
+    ],
+
+    [
+      "AMWAY",
+      "Amway Business Services Center provides state of the art se^ice to corpora operations across Europe, India and Africa. From graduates to qualified experts  we hire the best professionals in the fields of Finance. Customer Service, Marketing and IT. Here, you have the opportunity to add value and be valued. ",
+      400,
+      "Here you can work with exceptional people, gain experience within international environment, develop your skills and contribute to various projects outside of regular responsibilities. You can participate in integration events or gain knowledge via our Training Program, Language Training or Amway University We also support various after-work initiatives (Basketball team. Hiking trips and Wakeboarding). ",
+      "We are multinational and multicultural team, almost 30 languages are used in Amway on daily basis. We speak all European languages. We believe that cultural and language diversification have a strong international value and can also bring a lot of amazing initiatives. For example, our cyclical International Days to celebrate a different country's day where we can learn more about its culture, cuisine and language. ",
+      [
+        "Private health care",
+        "Courses/conferences",
+        "Sports card",
+        "Integration trips",
+        "Life insurance"
+      ],
+      [
+        "Customer Service",
+        "Finance",
+        "IT",
+        "Marketing",
+        "HR",
+      ],
+      [
+        "Kraków",
+      ],
+      [
+        "www.amway.appmanager.pl"
+      ],
+      [
+        "Kraków"
+      ]
+    ],
+
+    [
+      "ALSTOM",
+      "Jesteśmy firmą należąca do francuskiego koncernu, działającą na polskim rynku od 20 lat. W Chorzowie konstruujemy i produkujemy metra, pociągi oraz tramwaje nowej generacji dla klientów z całego świata - między Innym] z Niemiec, Włoch, Holandii, Arabii Saudyjskiej i Dubaju. W Warszawie specjaliści pracujący w Pendolino Depot oferują pełen zakres zindywidualizowanych usług, w tym serwis, modernizację, naprawy oraz wsparcie techniczne dla PKP InterCity. ",
+      2850,
+      "Firma oferuje ośmiomiesięczne płatne staże z opcją zatrudnienia dla najlepszych stażystów. Pracujemy z najnowocześniejszym technologiami. Cenimy sobie różnorodność zespołów, które tworzą między innymi pracownicy z Francji, Holandii, ze Słowacji, z Ukrainy, Rosji, Brazylii, Filipin oraz Indii. Alstom Jako pierwszy wprowadził w Polsce pociąg dużych prędkości - Pendolino dla PKP InterClty, a aktualnie realizuje projekty na rynki całego świata. Tworzymy historię kolei, która pisana Jest teraz! ",
+      "Filarami naszej kultury organizacyjnej są wartości związane z działaniem, zespołem oraz odpowiedzialnością. Nie moglibyśmy być wydajni i nie realizowalibyśmy projektów na rynki światowe, jeśli nie pracowalibyśmy jako zespół. Doceniamy różnorodność w każdym aspekcie - różne narodowości, kultury ",
+      [
+        "Ubezpieczenie na życie",
+        "Karta sportowa",
+        "Szkolenia/kursy/konferences",
+        "Prywatna opieka medyczna"
+      ],
+      [
+        "Fleet Management",
+        "Logistyka",
+        "Planowanie",
+        "Lean Manufacturing",
+        "Technologiczny",
+        "Zakupy",
+        "Jakość",
+        "Finanse"
+      ],
+      [
+        "Warszawa",
+        "Chorzów",
+        "Śwętochłowice"
+      ],
+      [
+        "www.alstom.com"
+      ],
+      [
+        "Katowice",
+        "Warszawa"
+      ]
+    ],
+
+    [
+      "AON",
+      "Aon is a leading global professional services firm providing a broad range of risk. retirement and health solutions. Our 50 000 colleagues In 120 countries empower results for clients by using proprietary data and analytics to deliver insights that reduce volatility and improve performance. 1300 colleagues in Kraków handle operations for Aon clients and provide services",
+      1300,
+      "From the very first day at Aon you'll notice that the company really cares about their employees. How? By providing various development opportunities, paying attention to the wellbeing issues, offering the best medical care package available on the market as well as other additional benefits. And finally, by giving you chance to work with friendly, open-mlned and Inspiring people. ",
+      "Our colleagues tell us a consistent message: Aon has a supportive and friendly workplace culture. And that's how it really Is! We're a flexible, multinational and dynamic company. No formal dress code, no blame culture, no unethical behaviors. We value honesty, authenticity and a can-do attitude. We work hard but we know how to have fun as well. ",
+      [
+        "Private health care",
+        "Sports card",
+        "Vouchers/tlckets",
+        "Flexible working time",
+        "Life insurance",
+      ],
+      [
+        "Human Resources Operations",
+        "Finance Operations",
+        "Technology & Security",
+        "Pensions Administration",
+        "Health & Benefits Solutions",
+      ],
+      [
+        "Kraków",
+      ],
+      [
+        "www.pracaAon.pl",
+      ],
+      [
+        "Kraków",
+      ]
+    ],
   ]
 }
