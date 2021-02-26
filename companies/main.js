@@ -47,10 +47,11 @@ function showCompany(id) {
     item.textContent = `${data.companies[id][9][i]} `;
     eventCity.appendChild(item);
   }
+  let z = data.companies.length - 1;
   website.href = data.companies[id][8];
   website.textContent = data.companies[id][8];
-  btnText[0].textContent = (id > 0) ? data.companies[id - 1][0] : data.companies[5][0];
-  btnText[1].textContent = (id < 5) ? data.companies[id + 1][0] : data.companies[0][0];
+  btnText[0].textContent = (id > 0) ? data.companies[id - 1][0] : data.companies[z][0];
+  btnText[1].textContent = (id < z) ? data.companies[id + 1][0] : data.companies[0][0];
 }
 
 showCompany(id);
