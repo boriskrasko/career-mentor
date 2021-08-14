@@ -7,7 +7,7 @@ function showComnaniesList() {
     let a = document.createElement('a');
     a.textContent = `${data.companies[i][0]}`;
     item.appendChild(a);
-    a.href = `${data.companies[i][0]}/index.html`
+    a.href = `${data.companies[i][0].toLowerCase()}/index.html`
   }
 }
 
