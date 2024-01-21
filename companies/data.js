@@ -410,6 +410,55 @@ const data = {
       "locations": ["Wrocław", "Łódź", "Warszawa", "Bydgoszcz"],
       "websites": ["www.atos.net/kariera", "www.jobs.atos.net"],
       "hiring_locations": ["ABSOLVENT TALENT DAYS Wrocław", "ABSOLVENT TALENT DAYS Łódź"]
+    },
+    {
+      "name": "AVIVA",
+      "description": "Zastanawiasz się, co robimy w Avivie? Uwalniamy ludzi od lęku przed niepewnym jutrem. Robimy to od lat i wychodzi nam to świetnie. Kiedyś naszymi klientami byli Isaak Newton oraz Agatha Christie. Dziś na całym świecie mamy ponad 30 milionów klientów. Jesteśmy firmą, która wyznacza trendy i kierunki w ubezpieczeniach.",
+      "employees": 1600,
+      "opportunities": "Zależy nam - jesteśmy pozytywnie zakręceni na punkcie naszych klientów, współpracowników oraz społeczności, w których działamy. Nie komplikujemy - upraszczamy życie klientom i sobie wzajemnie. Zawiłymi kwestiami zarządzamy tak, żeby nikt tego nie odczuł. Nie odpuszczamy - każdy dzień to powód, by działać jeszcze prężniej i myśleć kreatywnie. Tworzymy lepszą przyszłość dla naszych klientów i dla nas samych.",
+      "values": "Chcesz przejść na żółtą stronę mocy? Tu praca Ci służy. Na co dzień będziesz współpracować ze specjalistami, którzy sporo Cię nauczą i podzielą się doświadczeniem. Działamy w nowoczesnym biurze, tuż przy Dworcu Gdańskim (sprawdź, jak ono wygląda na profilach Aviva Kariera na Facebooku i Instagramie). A może praca zdalna? Jest też taka opcja!",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Bony/bilety/zniżki",
+        "Ubezpieczenia na życie"
+      ],
+      "locations": ["Warszawa"],
+      "departments": [
+        "IT",
+        "Aktuariat",
+        "Finanse",
+        "Marketing",
+        "Sprzedaż i obsługa klienta"
+      ],
+      "website": "https://kariera.aviva.pl",
+      "hiring_locations": ["ABSOLVENT TALENT DAYS Warszawa"]
+    },
+    {
+      "name": "AVON",
+      "description": "Jesteśmy AVON Polska, tu każdy głos ma znaczenie. Działamy w branży beauty i codziennie zmieniamy ją na lepsze. Nieważne, czy pracujesz w sprzedaży. marketingu, czy IT - rozwijamy się na wszystkich polach. Mówimy PIĘKNIE!, robiąc to z uśmiechem na twarzy. WOW!, kiedy odnosimy kolejne sukcesy. Wiemy, że tylko tak udaje się nam zachwycać innych i wspierać miliony kobiet na całym świecie.",
+      "employees": 2500,
+      "opportunities": "Warszawa to jedno z SUPER! miejsc na światowej mapie AVON - pracujemy tu nad rozwojem naszej marki w skali lokalnej, regionalnej oraz globalnej. To właśnie tutaj powstaje katalog dla 19 rynków Europy Centralnej. Zapraszamy do miejsca, gdzie tworzymy piękno. W Garwolinie znajduje się nasza fabryka, która jest najbardziej zaawansowanym technologicznie i drugim co do wielkości zakładem produkcyjnym AVON na świecie. Z centrum dystrybucyjnego wysyłamy nasze kosmetyki do ponad 50 krajów Europy, Bliskiego Wschodu i Afryki. To robi wrażenie!",
+      "values": "Tutaj liczysz się TY! Twoje aspiracje i plany rozwoju są dla nas ważne, dlatego będziemy Cię wspierać w ich realizacji. U nas możesz swobodnie wyrażać swoje zdanie, brać odpowiedzialność za własne pomysły oraz wcielać je w życie. AVON to zadowoleni, spełnieni ludzie, dzięki którym nasi klienci każdego dnia mówią i słyszą WOW!",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Elastyczny czas pracy",
+        "Ubezpieczenia na życie"
+      ],
+      "locations": ["Warszawa", "Garwolin"],
+      "departments": [
+        "Marketing",
+        "Analizy",
+        "Finanse",
+        "Planowanie i sourcing",
+        "Laboratorium chemiczne, R&D"
+      ],
+      "website": "www.kariera.avonpolska.pl",
+      "hiring_locations": ["ABSOLVENT TALENT DAYS Warszawa"]
     }
+    
   ]
 }
