@@ -165,6 +165,35 @@ const data = {
       "locations": ["Kraków"],
       "website": "https://pracaaon.pl/",
       "hiring_locations": ["Kraków"]
+    },
+    {
+      "name": "Apator",
+      "description": "Apator Powogaz S.A. to część jednego z największych producentów wodomierzy i ciepłomierzy w Polsce oraz w Europie. Należymy do Grupy Apator skupiającej polskich producentów aparatury i systemów pomiarowych mediów, takich jak woda, ciepło, gaz i prąd. Produkujemy 3 miliony wodomierzy rocznie. Nasze wyroby trafiają do krajów europejskich, a także do Australii, na Bliski i Daleki Wschód, do Afryki oraz do obu Ameryk.",
+      "employees": 435,
+      "opportunities": "Siłą naszego przedsiębiorstwa są zaawansowane technologie, wysoka jakość produktów i usług oraz nowatorskie rozwiązania konstrukcyjne i technologiczne. Apator Powogaz S.A. to miejsce, w którym pokolenia współpracują ze sobą i dzielą się swoją wiedzą. Budujemy relacje oparte na otwartości, zaufaniu, szacunku. Cenimy umiejętność pracy w zespole oraz wysoką kulturę osobistą. Oferujemy możliwość zdobycia nowych umiejętności pod okiem doświadczonych specjalistów, wykorzystanie w praktyce wiedzy zdobytej na studiach, a także uczestnictwo w realizacji innowacyjnych projektów.",
+      "companyValues": "Na wysoko konkurencyjnym i specjalistycznym rynku nowoczesnych technologii, pracownicy stanowią kluczowe aktywa przedsiębiorstwa, dlatego wdrażamy narzędzia wspierające rozwój zatrudnionych osób, budując ich zaangażowanie, lojalność i motywację. Wspieramy organizacyjnie oraz merytorycznie naszych pracowników od pierwszych dni zatrudnienia. Nasze priorytety to zapewnienie bezpiecznych warunków pracy oraz świetnej atmosfery.",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Premie uzależnione od wyników",
+        "Elastyczny czas pracy"
+      ],
+      "departments": [
+        "Badania i rozwój",
+        "Wrożenia",
+        "Technologiczny",
+        "Jakość",
+        "Produkcja"
+      ],
+      "locations": [
+        "Poznań"
+      ],
+      "website": "https://apator.com/pl",
+      "hiringLocations": [
+        "Poznań"
+      ]
     }
+    
   ]
 }
