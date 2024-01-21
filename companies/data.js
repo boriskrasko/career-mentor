@@ -386,6 +386,30 @@ const data = {
       "locations": ["Katowice", "Kraków", "Wrocław", "Warszawa"],
       "website": "www.astek.pl",
       "hiring_locations": ["ABSOLVENT TALENT DAYS Katowice"]
+    },
+    {
+      "name": "ATOS",
+      "description": "Nie jesteśmy zwykłą firmą informatyczną. Jesteśmy międzynarodowym liderem transformacji cyfrowej, zatrudniającym ponad 110 000 pracowników w 73 krajach świata. Oferujemy usługi zarządzania infrastrukturą IT, integrację systemów informatycznych, outsourcing i doradztwo IT. Od lat jesteśmy również światowym partnerem IT Igrzysk Olimpijskich i Paraolimpijskich.",
+      "employees": 5000,
+      "opportunities": "W Atos inwestujemy w rozwój pracowników, zapewniamy im stabilność finansową, szkolenia i certyfikacje. Gwarantujemy przyjazne, międzynarodowe środowisko pracy, kontakt z najnowszymi technologiami oraz uczestnictwo w prestiżowych projektach. Umożliwiamy różnorodne ścieżki rozwoju dopasowane do zainteresowań i umiejętności.",
+      "values": "Atos tworzą wyjątkowi i pełni pasji specjaliści z innowacyjnym podejściem do swojej pracy. To dzięki nim dostarczamy najwyższej klasy usługi oraz rozwiązania IT klientom z całego świata. Pracujemy w międzynarodowym środowisku, w atmosferze wzajemnej tolerancji. Wszystkim naszym pracownikom zapewniamy komfortowe warunki pracy oraz wysokiej jakości sprzęt.",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Premie uzależnione od wyników",
+        "Elastyczny czas pracy"
+      ],
+      "departments": [
+        "IT-oprogramowanie",
+        "IT-administracja",
+        "Zarządzanie projektami",
+        "Finanse i księgowość",
+        "Consulting"
+      ],
+      "locations": ["Wrocław", "Łódź", "Warszawa", "Bydgoszcz"],
+      "websites": ["www.atos.net/kariera", "www.jobs.atos.net"],
+      "hiring_locations": ["ABSOLVENT TALENT DAYS Wrocław", "ABSOLVENT TALENT DAYS Łódź"]
     }
   ]
 }
