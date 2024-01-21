@@ -167,7 +167,7 @@ const data = {
       "hiring_locations": ["Kraków"]
     },
     {
-      "name": "Apator",
+      "name": "APATOR",
       "description": "Apator Powogaz S.A. to część jednego z największych producentów wodomierzy i ciepłomierzy w Polsce oraz w Europie. Należymy do Grupy Apator skupiającej polskich producentów aparatury i systemów pomiarowych mediów, takich jak woda, ciepło, gaz i prąd. Produkujemy 3 miliony wodomierzy rocznie. Nasze wyroby trafiają do krajów europejskich, a także do Australii, na Bliski i Daleki Wschód, do Afryki oraz do obu Ameryk.",
       "employees": 435,
       "opportunities": "Siłą naszego przedsiębiorstwa są zaawansowane technologie, wysoka jakość produktów i usług oraz nowatorskie rozwiązania konstrukcyjne i technologiczne. Apator Powogaz S.A. to miejsce, w którym pokolenia współpracują ze sobą i dzielą się swoją wiedzą. Budujemy relacje oparte na otwartości, zaufaniu, szacunku. Cenimy umiejętność pracy w zespole oraz wysoką kulturę osobistą. Oferujemy możliwość zdobycia nowych umiejętności pod okiem doświadczonych specjalistów, wykorzystanie w praktyce wiedzy zdobytej na studiach, a także uczestnictwo w realizacji innowacyjnych projektów.",
@@ -190,10 +190,37 @@ const data = {
         "Poznań"
       ],
       "website": "https://apator.com/pl",
-      "hiringLocations": [
+      "hiring_locations": [
         "Poznań"
       ]
-    }
-    
+    },
+    {
+      "name": "GEMINI",
+      "description": "Apteki Gemini działają od roku 1990 - to przede wszystkim fachowi farmaceuci, których na co dzień wspiera zespół specjalistów z wielu dziedzin, w tym: administracji, kadr, HR, IT, sprzedaży, księgowości, marketingu, rozwoju i finansów. Codziennie skupiamy się na rozwoju naszych aptek stacjonarnych oraz apteki internetowej, zarówno pod kątem efektywnego wypełniania zadań, jak i budowania zaangażowanego, zorganizowanego zespołu.",
+      "employees": 2300,
+      "opportunities": "Jako młody i wciąż rozwijający się zespół, nie stoimy w miejscu tylko ciągle poszukujemy nowych wyzwań. Nazwa Gemini oznacza bliźnięta, dlatego czujemy się podwójnie zobowiązani do troski o naszych pacjentów. Poprzez profesjonalizm i otwartość na bycie coraz bliżej ich potrzeb zyskujemy ich szacunek oraz zadowolenie. Swobodna atmosfera, uśmiech i życzliwość pomagają w kreatywnym wypełnianiu naszej misji. Cenimy inicjatywę, którą szybko przekuwamy w działanie. Dużo się u nas dzieje, więc jeżeli jesteś człowiekiem pełnym zaangażowania, pomysłów, pasji i optymizmu, to prawdopodobnie czekamy właśnie na Ciebie!",
+      "companyValues": "Konsekwentnie rozwijamy się i zmieniamy, aby pracowało się u nas dobrze. Tworzymy duży, jednocześnie zgrany zespół, który świetnie się ze sobą czuje. Atmosfera w biurze jest wyjątkowo przyjazna. Nie obowiązuje u nas dress code, wszyscy przechodzimy ze sobą na „ty\" i pracujemy z uśmiechem na ustach. Jednak przede wszystkim nie boimy się wyzwań.",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Karta sportowa",
+        "Ubezpieczenia na życie"
+      ],
+      "departments": [
+        "Handlowy i marketing",
+        "Księgowość i kadry",
+        "IT i kontroling",
+        "Dystrybucja i magazyn",
+        "Farmacja"
+      ],
+      "locations": [
+        "Kraków"
+      ],
+      "website": "https://aptekigemini.pl",
+      "hiring_locations": [
+        "Alchemia, Grunwaldzka 411",
+        "PPNT, Trzy Lipy 3",
+        "Apteki stacjonarne"
+      ]
+    }  
   ]
 }

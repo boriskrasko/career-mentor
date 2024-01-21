@@ -72,7 +72,7 @@ all.addEventListener('click', () => {
 
   data.companies.forEach((company, i) => {
     let item = document.createElement('li');
-    item.textContent = company.name;
+    item.textContent = company.name.toUpperCase();
     companyList.appendChild(item);
     item.addEventListener('click', () => {
       companyList.innerHTML = '';
