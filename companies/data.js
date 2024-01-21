@@ -262,6 +262,30 @@ const data = {
       "locations": ["Gdańsk"],
       "website": "www.arlakariera.pl",
       "hiring_locations": ["Gdańsk/Sopot"]
-    } 
+    },
+    {
+      "name": "ARRA",
+      "description": "ARRA GROUP to lider w segmencie europejskiej ekspresowej logistyki farmacji. Specjalizujemy się w transporcie farmaceutycznym, chłodniczym oraz transporcie materiałów niebezpiecznych, w warunkach temperatury kontrolowanej. Wszystkie nasze działania skierowane są na optymalizację procesów transportowych i zapewnienie najwyższej jakości.",
+      "employees": 350,
+      "opportunities": "Rozwijamy się dynamicznie, ale nie chcemy być korporacją. Jesteśmy dużą firmą o rodzinnych wartościach. Zmieniamy się i podejmujemy wyzwania, jakich inni się boją. U nas każdy idzie swoją ścieżką rozwoju, na której nie ma kłód, a jeśli jakieś się pojawią, robimy z nich most do sukcesu. Szukamy ludzi z pasją i zaangażowaniem, chcących się rozwijać, czyli dokładnie takich jak MY. U nas nie ma szklanych sufitów!",
+      "values": "Ważni są dla nas wszyscy i wszystko to, co nas otacza, dlatego wsłuchujemy się w potrzeby lokalnej społeczności i razem z nimi realizujemy założenia Programu Zielone Światło, czyli rozwijamy, uczymy, bawimy dzieci oraz młodzież potrzebującą wsparcia. Dzielimy się wiedzą i pasjami, wspieramy się na każdym etapie realizacji zadań. Każdy z nas ma możliwość wpływania na rozwój, a także na politykę firmy.",
+      "benefits": [
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Premie uzależnione od wyników",
+        "Bony/bilety/zniżki",
+        "Wyjazdy integracyjne"
+      ],
+      "departments": [
+        "Transport",
+        "Ekonomiczno-finansowy",
+        "Flota",
+        "Handel i marketing",
+        "Jakość"
+      ],
+      "locations": ["Głogów", "Wrocław", "Toruń"],
+      "hiring_locations": ["Wrocław"],
+      "website": "https://arra.pl"
+    }
   ]
 }
