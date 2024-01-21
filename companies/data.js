@@ -313,6 +313,34 @@ const data = {
       "hiring_locations": [
         "Katowice"
       ]
+    },
+    {
+      "name": "ArvatoPolska",
+      "description": "Arvato Polska (Kariera) jest częścią międzynarodowego koncernu medialnego Bertelsmann. Od roku 1994, jako pionier outsourcingu w Polsce, świadczymy kompleksowe usługi outsourcingowe w zakresie 2 grup rozwiązań: SCM (logistyka kontraktowa, e-commerce) oraz FS (specjalistyczne usługi finansowe). Arvato wspiera zarówno polskich, jak i zagranicznych klientów.",
+      "employees": 2700,
+      "opportunities": "Duża różnorodność projektów umożliwia naszym kandydatom znalezienie odpowiedniego miejsca pracy. W Polsce posiadamy 11 lokalizacji w Poznaniu, Plewiskach, Zemnikach, Komornikach, Katowicach, Warszawie, Błoniu, Krakowie oraz 3 lokalizacje w Strykowie. Łącznie zatrudniamy ponad 2500 pracowników.",
+      "culture": "Stawiamy na dobrą atmosferę w projektach. Szukamy osób, które chcą być częścią naszych zespołów. Nie wszystkie ze stanowisk wymagają doświadczenia, wielu rzeczy możemy Cię nauczyć!",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Bony/bilety/zniżki",
+        "Owoce i napoje w firmie"
+      ],
+      "departments": [
+        "Obsługa klienta",
+        "Logistyka",
+        "Obsługa płatności",
+        "IT"
+      ],
+      "locations": [
+        "Poznań",
+        "Katowice"
+      ],
+      "website": "https://praca.arvato.pl",
+      "hiring_locations": [
+        "Poznań"
+      ]
     }
   ]
 }
