@@ -13,7 +13,7 @@ body {
 }
 
 .section, .table-contents {
-  width: 1024px;
+  width: 1280px;
   min-height: 80vh;
   margin: 0 auto;
   font-family: 'NunitoSans', sans-serif;
@@ -69,7 +69,7 @@ a {
   font-family: 'NunitoSans', sans-serif;
   font-weight: 400;
   color: #444;
-  width: 1024px;
+  width: 1280px;
   margin: 0 auto 20px;
   border: 2px solid #ddd;
   display: flex;
@@ -238,13 +238,13 @@ a {
   font-family: 'NunitoSans', sans-serif;
   font-weight: 400;
   color: #444;
-  width: 1024px;
+  width: 1280px;
   margin: 20px auto 40px;
   display: flex;
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .section, .header, .footer, .table-contents{width: 95%}
 }
 
