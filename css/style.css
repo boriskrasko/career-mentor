@@ -318,4 +318,7 @@ footer a {
   article footer {
     justify-content: center;
   }
+  .credits h3 {
+    font-size: 1.6em;
+  }
 }
