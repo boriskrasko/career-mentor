@@ -341,6 +341,33 @@ const data = {
       "hiring_locations": [
         "Poznań"
       ]
+    },
+    {
+      "name": "ASSA",
+      "description": "ASSA ABLOY is the global leader in access solutions used everyday around the world. When you walk through an automatic door, stay in a hotel or authenticate your identity, then you're probably using our products or services. In our Kraków R&D Center we are developing products, platforms and interfaces together with providing network, security and hosting services for internal customers.",
+      "employees": 48500,
+      "opportunities": "At ASSA ABLOY we aim to help people feel safe, secure and experience a more open world. Our core values, beliefs and strategic objectives help guide our way. These words explain how we behave internally, towards each other: empowerment, innovation and integrity. We have trust in people and believe our employees can achieve great things. We have the courage to change and we welcome everyone's feedback on suggested improvements. We drive towards ambitious goals, always with tomorrow in mind. To work at ASSA ABLOY means to always be growing.",
+      "culture": "We provide a safe and respectful work environment where everyone is welcome. The office atmosphere is open, honest and friendly. We sit in an open landscape that encourages interaction and communication. We also believe that work-life-balance is essential for long-term productivity and employee satisfaction. Flexible working hours are a part of this balance.",
+      "benefits": [
+        "Private health care",
+        "Courses/conferences",
+        "Sports card",
+        "Integration trips",
+        "Flexible working time"
+      ],
+      "departments": [
+        "Engineering (SW and FW)",
+        "Program/Project Management",
+        "IT Security"
+      ],
+      "locations": [
+        "Zabierzów",
+        "Kraków"
+      ],
+      "website": "https://assaabloy.com/en/com/career/",
+      "hiring_locations": [
+        "ABSOLVENT TALENT DAYS Kraków"
+      ]
     }
   ]
 }
