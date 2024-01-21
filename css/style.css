@@ -118,7 +118,7 @@ ul {
 
 .subtitle {
   display: block;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 400;
   color: #444;
 }
@@ -267,7 +267,6 @@ footer a {
 
 @media screen and (max-width: 1000px) {
   .title {
-    margin-top: 50px;
     font-size: 3em;
   }
   .credits {
@@ -297,17 +296,17 @@ footer a {
   .credits div:nth-child(3) {
     border-right: 2px solid gray;
   }
-  .topnav img {
-    margin: 0 auto;
-  }
 }
 
 @media screen and (max-width: 500px) {
   .header {
-    font-size: 11px;
+    font-size: 16px;
   }
   .title {
-    font-size: 4em;
+    font-size: 3.5em;
+  }
+  .subtitle {
+    font-size: 2em;
   }
   article footer {
     justify-content: center;
