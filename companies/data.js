@@ -242,8 +242,26 @@ const data = {
         "Inżynierów materiałowych"
       ],
       "locations": ["Gdańsk/Sopot"],
-      "hiringLocations": ["Gdańsk/Sopot"],
+      "hiring_locations": ["Gdańsk/Sopot"],
       "website": "https://aptiv.com"
-    }
+    },
+    {
+      "name": "ARLA",
+      "description": "Nasze początki w Danii i Szwecji sięgają lat 80. XIX wieku. W Gdańsku obecni jesteśmy od 2008 r. Tworzymy Centrum Usług Wspólnych zatrudniające ponad 450 pracowników. Każdy z nich odgrywa ważną rolę w rozwoju firmy, która dąży do bycia liderem na rynku produktów mleczarskich. Wspieramy kolegów z całego świata, dostarczając usługi z zakresu księgowości, finansów, zaopatrzenia, procesów IT oraz HR.",
+      "employees": 450,
+      "opportunities": "Co nas wyróżnia? Skandynawska kultura pracy, w której cenimy work-life balance, współpracę, inicjatywę, wzajemny szacunek i zaufanie. • Dajemy szanse rozwoju dzięki szkoleniom, wsparciu buddy'ego, wewnętrznym rekrutacjom. • Wiemy, że praca to nie wszystko, dlatego stawiamy na integrację i zacieśnianie więzi poprzez śniadania teamowe, wspólne świętowanie urodzin, wyjścia integracyjne, mecze FIFA na Xboxie w chill-out roomie, grę w bilard czy piłkarzyki. • Międzynarodowe środowisko pracy oraz udział w globalnych projektach.",
+      "values": "Kulturę organizacyjną Arla definiują 3 wartości, które przyświecają wszystkim naszym działaniom. LEAD: przejmujemy ster i wyznaczamy ścieżki, działamy z pasją. SENSE: jesteśmy wrażliwi i uważni na potrzeby innych oraz otaczającego nas świata. CREATE: Arla to firma tworzona przez ludzi kreatywnych i innowacyjnych w zakresie rozwoju kompetencji, produktów, a także budowania profesjonalnych relacji.",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Karta sportowa",
+        "Bony/bilety/zniżki",
+        "Elastyczny czas pracy",
+        "Ubezpieczenia na życie"
+      ],
+      "departments": ["Finance & Accounting", "HR", "Procurement", "IT Operations", "IT Solutions"],
+      "locations": ["Gdańsk"],
+      "website": "www.arlakariera.pl",
+      "hiring_locations": ["Gdańsk/Sopot"]
+    } 
   ]
 }
