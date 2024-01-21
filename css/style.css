@@ -304,22 +304,14 @@ footer a {
     font-size: 16px;
   }
   .title {
-    font-size: 2.9em;
+    font-size: 2.8em;
   }
   .subtitle {
     font-size: 1.9em;
   }
-  .header-subtitle {
-    background: none;
-  }
+  
   article footer {
     justify-content: center;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .header-subtitle {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgb(236, 236, 236));
   }
 }
 
