@@ -1,12 +1,12 @@
-const aboutCompany = document.querySelector('.about-company');
-const employeesCount = document.querySelector('.employees-count');
-const advantages = document.querySelector('.advantages');
+const description = document.querySelector('.description');
+const employees = document.querySelector('.employees');
+const opportunities = document.querySelector('.opportunities');
 const companyValues = document.querySelector('.company-values');
-const beneficiary = document.querySelector('.beneficiary');
+const benefits = document.querySelector('.benefits');
 const departments = document.querySelector('.departments');
-const branches = document.querySelector('.branches');
+const locations = document.querySelector('.locations');
 const website = document.querySelector('.website');
-const eventCity = document.querySelector('.event-cities');
+const hiringLocations = document.querySelector('.hiring-locations');
 const companyLogo = document.querySelector('.company-logo');
 const btn = document.querySelectorAll('.btn');
 const btnText = document.querySelectorAll('.btn-text');
@@ -17,74 +17,81 @@ const tableContents = document.querySelector('.table-contents');
 let company;
 let id = 0;
 
-
 function showCompany(id) {
-  company = data.companies[id][0].toLowerCase().replace(/\s/g, ``);
+  company = data.companies[id].name.toLowerCase().replace(/\s/g, '');
   companyLogo.src = `logos/${company}.png`;
-  companyLogo.setAttribute(`alt`, `${company} company logo`);
-  aboutCompany.textContent = data.companies[id][1];
-  employeesCount.textContent = data.companies[id][2];
-  advantages.textContent = data.companies[id][3];
-  companyValues.textContent = data.companies[id][4];
+  companyLogo.setAttribute('alt', `${company} company logo`);
+  description.textContent = data.companies[id].description;
+  employees.textContent = data.companies[id].employees;
+  opportunities.textContent = data.companies[id].opportunities;
+  companyValues.textContent = data.companies[id].values;
 
-  for (let i = 0; i < data.companies[id][5].length; i++) {
+  benefits.innerHTML = '';
+  departments.innerHTML = '';
+  locations.innerHTML = '';
+  hiringLocations.innerHTML = '';
+
+  data.companies[id].benefits.forEach((benefit) => {
     let item = document.createElement('li');
-    item.textContent = data.companies[id][5][i];
-    beneficiary.appendChild(item);
-  }
-  for (let i = 0; i < data.companies[id][6].length; i++) {
+    item.textContent = benefit;
+    benefits.appendChild(item);
+  });
+
+  data.companies[id].departments.forEach((department) => {
     let item = document.createElement('li');
-    item.textContent = data.companies[id][6][i];
+    item.textContent = department;
     departments.appendChild(item);
-  }
-  for (let i = 0; i < data.companies[id][7].length; i++) {
+  });
+
+  data.companies[id].locations.forEach((location) => {
     let item = document.createElement('li');
-    item.textContent = data.companies[id][7][i];
-    branches.appendChild(item);
-  }
-  for (let i = 0; i < data.companies[id][9].length; i++) {
+    item.textContent = location;
+    locations.appendChild(item);
+  });
+
+  data.companies[id].hiring_locations.forEach((hiringLocation) => {
     let item = document.createElement('span');
-    item.textContent = `${data.companies[id][9][i]} `;
-    eventCity.appendChild(item);
-  }
+    item.textContent = `${hiringLocation} `;
+    hiringLocations.appendChild(item);
+  });
+
+  website.href = data.companies[id].website;
+  website.textContent = data.companies[id].website;
+
   let z = data.companies.length - 1;
-  website.href = data.companies[id][8];
-  website.textContent = data.companies[id][8];
-  btnText[0].textContent = (id > 0) ? data.companies[id - 1][0] : data.companies[z][0];
-  btnText[1].textContent = (id < z) ? data.companies[id + 1][0] : data.companies[0][0];
+  btnText[0].textContent = (id > 0) ? data.companies[id - 1].name : data.companies[z].name;
+  btnText[1].textContent = (id < z) ? data.companies[id + 1].name : data.companies[0].name;
 }
 
 showCompany(id);
 
 all.addEventListener('click', () => {
-  section.style.display = `none`;
-  tableContents.style.display = `block`;
-  all.style.display = `none`;
+  section.style.display = 'none';
+  tableContents.style.display = 'block';
+  all.style.display = 'none';
 
-  for (let i = 0; i < data.companies.length; i ++) {
+  data.companies.forEach((company, i) => {
     let item = document.createElement('li');
-    item.textContent = `${data.companies[i][0]}`;
+    item.textContent = company.name;
     companyList.appendChild(item);
     item.addEventListener('click', () => {
-      companyList.innerHTML = ``;
-      tableContents.style.display = `none`;
-      section.style.display = `block`;
-      all.style.display = `block`;
-      showCompany(i); 
+      companyList.innerHTML = '';
+      tableContents.style.display = 'none';
+      section.style.display = 'block';
+      all.style.display = 'block';
+      showCompany(i);
     });
-  }
+  });
 });
 
-for (let i = 0; i < btn.length; i++) {
+btn.forEach((button, i) => {
   let x = data.companies.length - 1;
-  btn[i].addEventListener('click', () => {
-    beneficiary.innerHTML = ``;
-    departments.innerHTML = ``;
-    branches.innerHTML = ``;
-    eventCity.innerHTML = ``;
-    id = (i === 0) ? 
-    id > 0 ? id - 1 : x : 
-    id < x ? id + 1 : 0
+  button.addEventListener('click', () => {
+    benefits.innerHTML = '';
+    departments.innerHTML = '';
+    locations.innerHTML = '';
+    hiringLocations.innerHTML = '';
+    id = (i === 0) ? (id > 0 ? id - 1 : x) : (id < x ? id + 1 : 0);
     showCompany(id);
-  })
-}
+  });
+});
