@@ -286,6 +286,33 @@ const data = {
       "locations": ["Głogów", "Wrocław", "Toruń"],
       "hiring_locations": ["Wrocław"],
       "website": "https://arra.pl"
+    },
+    {
+      "name": "ARVATO",
+      "description": "Arvato Financial Solutions to specjalistyczne usługi finansowe (m.in. monitoring należności, windykacja, postępowanie sądowe i egzekucyjne). Tworzymy i dostarczamy rozwiązania z zakresu obsługi klienta dla najbardziej renomowanych marek na świecie. Świadczymy usługi dla klientów polsko-, niemiecko- oraz anglojęzycznych. Oferujemy pracę w nowoczesnych centrach finansowych w obszarze procesów windykacyjnych i księgowych.",
+      "employees": 100,
+      "opportunities": "W naszej codziennej pracy stawiamy na kontakt z klientem, co jest super przeżyciem. Nie wszystkie nasze stanowiska wymagają doświadczenia, wielu rzeczy możemy Cię nauczyć. Ważne są za to umiejętności językowe. Stały kontakt z językiem obcym pozwala na rozwój Twoich kompetencji w tym zakresie.",
+      "values": "Stawiamy na dobrą atmosferę. Szukamy osób, które chcą być częścią naszych zespołów. Kładziemy nacisk na kompetencje językowe.",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Owoce i napoje w firmie",
+        "Ubezpieczenia na życie"
+      ],
+      "locations": [
+        "Katowice",
+        "Poznań"
+      ],
+      "departments": [
+        "Obsługa klienta",
+        "Obsługa płatności",
+        "Windykacja polubowna"
+      ],
+      "website": "https://katowiceponiemiecku.pl",
+      "hiring_locations": [
+        "Katowice"
+      ]
     }
   ]
 }
