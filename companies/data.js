@@ -458,7 +458,30 @@ const data = {
       ],
       "website": "www.kariera.avonpolska.pl",
       "hiring_locations": ["ABSOLVENT TALENT DAYS Warszawa"]
+    },
+    {
+      "name": "BGK",
+      "description": "Misją Banku Gospodarstwa Krajowego jest wspieranie rozwoju społeczno-gospodarczego Polski. Jako partner finansowy aktywnie wspomagamy przedsiębiorczość i efektywne wykorzystywanie programów rozwojowych. Inicjujemy współpracę między biznesem, sektorem publicznym oraz instytucjami finansowymi i uczestniczymy w niej.",
+      "employees": 1600,
+      "opportunities": "Pracując w BGK, codziennie przyczyniamy się do rozwoju Polski. Jesteśmy bankiem z misją i mamy realny wpływ na jakość życia Polaków. Wspieramy inwestycje (nie tylko w Polsce, lecz także na terenie Unii Europejskiej), programy mieszkaniowe oraz inicjatywy społeczne. Należymy do stabilnych pracodawców, dajemy możliwość rozwoju w organizacji o strategicznym znaczeniu dla kraju.",
+      "values": "Kultura organizacyjna to jeden z kluczowych filarów BGK. Możemy z dumą powiedzieć, że razem gramy dla Polski, zatem partnerska współpraca jest bardzo ważnym elementem naszego codziennego działania. Każda jednostka banku to zgrany zespół, który tworzą najlepsi eksperci w swojej dziedzinie. Dzielimy współodpowiedzialność projektową, prowadzimy innowacyjne projekty i jesteśmy aktywni w bractwach sportowych.",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Premie uzależnione od wyników",
+        "Elastyczny czas pracy"
+      ],
+      "locations": ["Warszawa"],
+      "departments": [
+        "Ryzyko kredytowe, finansowe",
+        "Audyt",
+        "Prawo i administracja",
+        "Strategia",
+        "Programy europejskie"
+      ],
+      "website": "https://bgk.pl",
+      "hiring_locations": ["Warszawa"]
     }
-    
   ]
 }
