@@ -15,7 +15,7 @@
 
 body {
   min-height: 768px;
-  min-width: 280px;
+  min-width: 370px;
   max-width: 1280px;
   margin: 0 auto;
   background: rgb(236, 236, 236);
@@ -309,7 +309,12 @@ footer a {
   .subtitle {
     font-size: 1.9em;
   }
-  
+  hr {
+    margin: 12px 0;
+  }
+  .header-subtitle {
+    background: none;
+  }
   article footer {
     justify-content: center;
   }
