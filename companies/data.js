@@ -221,6 +221,29 @@ const data = {
         "PPNT, Trzy Lipy 3",
         "Apteki stacjonarne"
       ]
-    }  
+    },
+    {
+      "name": "APTIV",
+      "description": "System sterowania gestami dla motoryzacji? Pojazdy autonomiczne? Tym się zajmujemy w Aptiv (wcześniej Delphi). Od wielu lat nasza firma wspiera największe marki samochodowe, dostarczając i stale rozwijając bezpieczniejsze, bardziej ekologiczne, a także zapewniające lepszą łączność rozwiązania. Zatrudniamy 150 000 osób w R&D i zakładach produkcyjnych w 45 krajach. Zakład w Gdańsku zajmuje się produkcją części do samochodów.",
+      "employees": 1000,
+      "opportunities": "Rozwijasz swoją pasję do motoryzacji, pracując nad technologiami, które pojawią się na drogach dopiero za kilka lat. Bierzesz udział w długoterminowych projektach realizowanych dla światowych marek samochodowych. Nasza firma zapewnia Ci stabilne, bezpieczne miejsce zatrudnienia. Oferujemy szkolenia i pracę z doświadczonymi współpracownikami, aby wspierać każdego w rozwoju umiejętności oraz upowszechniać wiedzę o najnowszych standardach jakości. Szukamy osób z potencjałem, gotowych do dalszego profesjonalnego rozwoju.",
+      "values": "W Aptiv najważniejsi są ludzie. To oni odpowiadają za projekty dla topowych marek samochodów i decydują o tym, jak będziemy się przemieszczać w przyszłości. Pracujemy z pasją. Niezależnie od zespołu czy kompetencji kierujemy się wartościami etycznymi. Jesteśmy zgranym zespołem w pracy i dobrymi znajomymi poza jej murami.",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Premie uzależnione od wyników",
+        "Ubezpieczenia na życie"
+      ],
+      "departments": [
+        "(Opto-) Elektroników",
+        "Programistów",
+        "Inżynierów jakości",
+        "Inżynierów materiałowych"
+      ],
+      "locations": ["Gdańsk/Sopot"],
+      "hiringLocations": ["Gdańsk/Sopot"],
+      "website": "https://aptiv.com"
+    }
   ]
 }
