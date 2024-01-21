@@ -319,7 +319,7 @@ const data = {
       "description": "Arvato Polska (Kariera) jest częścią międzynarodowego koncernu medialnego Bertelsmann. Od roku 1994, jako pionier outsourcingu w Polsce, świadczymy kompleksowe usługi outsourcingowe w zakresie 2 grup rozwiązań: SCM (logistyka kontraktowa, e-commerce) oraz FS (specjalistyczne usługi finansowe). Arvato wspiera zarówno polskich, jak i zagranicznych klientów.",
       "employees": 2700,
       "opportunities": "Duża różnorodność projektów umożliwia naszym kandydatom znalezienie odpowiedniego miejsca pracy. W Polsce posiadamy 11 lokalizacji w Poznaniu, Plewiskach, Zemnikach, Komornikach, Katowicach, Warszawie, Błoniu, Krakowie oraz 3 lokalizacje w Strykowie. Łącznie zatrudniamy ponad 2500 pracowników.",
-      "culture": "Stawiamy na dobrą atmosferę w projektach. Szukamy osób, które chcą być częścią naszych zespołów. Nie wszystkie ze stanowisk wymagają doświadczenia, wielu rzeczy możemy Cię nauczyć!",
+      "values": "Stawiamy na dobrą atmosferę w projektach. Szukamy osób, które chcą być częścią naszych zespołów. Nie wszystkie ze stanowisk wymagają doświadczenia, wielu rzeczy możemy Cię nauczyć!",
       "benefits": [
         "Prywatna opieka medyczna",
         "Szkolenia/kursy/konferencje",
@@ -347,7 +347,7 @@ const data = {
       "description": "ASSA ABLOY is the global leader in access solutions used everyday around the world. When you walk through an automatic door, stay in a hotel or authenticate your identity, then you're probably using our products or services. In our Kraków R&D Center we are developing products, platforms and interfaces together with providing network, security and hosting services for internal customers.",
       "employees": 48500,
       "opportunities": "At ASSA ABLOY we aim to help people feel safe, secure and experience a more open world. Our core values, beliefs and strategic objectives help guide our way. These words explain how we behave internally, towards each other: empowerment, innovation and integrity. We have trust in people and believe our employees can achieve great things. We have the courage to change and we welcome everyone's feedback on suggested improvements. We drive towards ambitious goals, always with tomorrow in mind. To work at ASSA ABLOY means to always be growing.",
-      "culture": "We provide a safe and respectful work environment where everyone is welcome. The office atmosphere is open, honest and friendly. We sit in an open landscape that encourages interaction and communication. We also believe that work-life-balance is essential for long-term productivity and employee satisfaction. Flexible working hours are a part of this balance.",
+      "values": "We provide a safe and respectful work environment where everyone is welcome. The office atmosphere is open, honest and friendly. We sit in an open landscape that encourages interaction and communication. We also believe that work-life-balance is essential for long-term productivity and employee satisfaction. Flexible working hours are a part of this balance.",
       "benefits": [
         "Private health care",
         "Courses/conferences",
@@ -368,6 +368,24 @@ const data = {
       "hiring_locations": [
         "ABSOLVENT TALENT DAYS Kraków"
       ]
+    },
+    {
+      "name": "ASTEK",
+      "description": "Tworzymy firmę, w której chcemy pracować i z którą sami chcielibyśmy współpracować. Skupiamy się na budowaniu przestrzeni do rozwoju, opartej na zaufaniu. Zatrudniamy ponad 750 specjalistów w całej Polsce. ASTEK Polska to założony w 2007 roku oddział międzynarodowej Grupy ASTEK, specjalizujący się w outsourcingu kadry IT i wsparciu projektów informatycznych. Mamy ponad 30 lat doświadczenia we wdrażaniu innowacyjnych rozwiązań.",
+      "employees": 750,
+      "opportunities": "Ludzie są dla nas bardzo ważni, dlatego stworzyliśmy idealne miejsce do rozwoju. W takim celu powstały Centra Kompetencyjne ASTEK Polska. Łączą się tu specjaliści z konkretnych technologii. Wspólnie dzielimy się wiedzą, dzięki temu stale się rozwijamy. Dołącz do Centrów Kompetencyjnych ASTEK Polska: Software Quality Assurance, Business Analysis & User Experience, Software Development, Advanced Data Analytics.",
+      "values": "Wierzymy, że nasza siła to zgrane zespoły pełne indywidualności. Przywiązujemy olbrzymią uwagę do wyboru odpowiednich osób do naszej firmy. To właśnie dzięki nim utrzymujemy tak dynamiczny rozwój. Przyjazna atmosfera, o którą codziennie dbamy, stwarza idealną okazję do budowania biznesowych relacji. ASTEK Polska to również wspólne aktywności po pracy. Lubimy spędzać czas razem, dlatego wspólnie decydujemy, co chcemy robić.",
+      "benefits": [
+        "Prywatna opieka medyczna",
+        "Szkolenia/kursy/konferencje",
+        "Karta sportowa",
+        "Wyjazdy integracyjne",
+        "Elastyczny czas pracy"
+      ],
+      "departments": ["Sprzedaż", "HR", "Business Support"],
+      "locations": ["Katowice", "Kraków", "Wrocław", "Warszawa"],
+      "website": "www.astek.pl",
+      "hiring_locations": ["ABSOLVENT TALENT DAYS Katowice"]
     }
   ]
 }
