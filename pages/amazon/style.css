@@ -26,45 +26,6 @@ span {
   color: var(--amazon-orange);
 }
 
-.topnav {
-  font-family: 'NunitoSans', sans-serif;
-  font-weight: 400;
-  color: #444;
-  width: 98%;
-  margin: 0 auto 20px;
-  border: 2px solid #ddd;
-  display: flex;
-  justify-content: flex-start;
-  background: #eee;
-  border-radius: 4px;
-}
-
-.topnav-icon {
-  width: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 2px solid #ddd;
-}
-
-.topnav-icon img {
-  width: 28px;
-  height: 28px;
-}
-
-.topnav-title {
-  display: flex;
-  justify-content: flex-start;
-  width: 90%;
-  margin: 0 20px;
-  padding: 10px 0px 10px 0;
-}
-
-.topnav-title h3 {
-  margin-right: 20px;
-  font-size: 0.9rem
-}
-
 .flex-container {
   display: flex;
   width: 98%;

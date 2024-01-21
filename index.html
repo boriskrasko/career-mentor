@@ -8,24 +8,24 @@
  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <div class="topnav">
-      <div>
-        <a href="companies/index.html">
-          <h3>PROFILI PROCODAWCÓW</h3>
-          <img src="icons/team.svg">
-          <ul class="dropdown-container">
-           <img src="img/profile.png"> 
-          </ul>
+  <nav class="topnav">
+    <ul class="topnav__list">
+      <li class="topbav__item">
+        <a class="topbav__link" href="companies/index.html">
+          PROFILI PROCODAWCÓW
         </a>
-      </div>
-      <div>
-        <a href="pages/index.html">
-          <h3>OFERTY</h3>
-          <img src="icons/target.svg">
+      </li>
+      <li class="topbav__item">
+        <a class="topbav__link" href="pages/index.html">
+          OFERTY
         </a>
-      </div>
-    </div>
+      </li>
+      <li class="topbav__item">
+        <a class="topbav__link" href="#about">
+          O NAS
+        </a>
+      </li>
+    </ul>
   </nav>
   <header class="header">
     <div class="header-title">
@@ -35,7 +35,7 @@
     </div>
     <hr width="100" color="#58f">
     <div class="header-subtitle">
-      <h2 class="sublitle">
+      <h2 class="subtitle">
         Znajdż wymarzoną pracę<br> wsród tysięcy ofert na 
       </h2>
       <a href="companies/index.html">
@@ -46,10 +46,7 @@
     </div>
   </header>
   <main>
-    <div class="start-screen">
-      <img src="img/start.png" alt="man wearing VR glasses">
-    </div>
-    <section>
+    <section id="about">
       <article>
        <header>
           <h2>Czesc!</h2>
@@ -90,12 +87,14 @@
         <address>
           Plac Konesera 9, 03-736 Warszawa
         </address>
+        <hr>
         <h3>KONTAKT I WSPÓLPRACA</h3>
         <a href="mailto:kontakt@absolvent.pl">kontakt@absolvent.pl</a>
       </div>
       <div>
         <h3>REDAKTOR NACZELNY</h3>
         <p>Sebastian Ciołek</p>
+        <hr>
         <h3>KORECTA</h3>
         <p>Justyna Zych</p>
       </div>

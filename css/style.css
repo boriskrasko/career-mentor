@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
 @font-face {
   font-family: Museo;
   src: url(../fonts/Museo500-Regular.otf);
@@ -9,24 +10,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid gray;*/
+  /* outline: 1px solid #f00; */
 }
 
 body {
-  max-width: 1024px;
-  min-width: 280px;
   min-height: 768px;
+  min-width: 370px;
+  max-width: 1280px;
   margin: 0 auto;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  color: #222;
   background: rgb(236, 236, 236);
   background-image: url(../img/repeat-white-background-waves.jpg);
+  color: #222;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
 
 .header {
+  position: relative;
+  z-index: 1;
+  height: 90vh;
   margin-left: 40px;
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
@@ -34,6 +38,21 @@ body {
   color: #222;
   padding: 0 15px;
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgb(236, 236, 236));
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  max-width: 1280px;
+  width: 100%;
+  height: 90vh;
+  background-image: url(../img/start.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 a {
@@ -45,42 +64,69 @@ ul {
   list-style: none;
 }
 
-.topnav div {
-  width: 50%;
-  padding: 0 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 25px;
-  font-size: 0.9em;
-  font-weight: 500;
+.topnav {
+  position: sticky;
+  max-width: 1280px;
+  margin: 0 auto;
+  top: 0;
+  z-index: 99;
+  padding: 0 8px;
+  box-shadow: 0 4px 8px #0004;
+  background-color: #222;
 }
 
-.topnav img {
-  margin-left: 10px;
-  width: 24px;
-}
-
-
-.topnav a {
+.topnav__list {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.topnav a {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 400;
+}
+
+.topnav a:hover {
+  color: #ddd;
+}
+
+.topnav li {
+  padding: 4px 24px 4px 4px;
 }
 
 .title {
   font-size: 5em;
   font-weight: 600;
   background: linear-gradient(to right, rgb(24, 82, 190), rgb(28, 200, 190));
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.title::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 1280px;
+  width: 100%;
+  height: 60vh;
+  z-index: -1;
+  background: linear-gradient(rgba(244, 244, 244, 1) 50%, rgb(255, 255, 255, 0) 70%);
+}
+
 .subtitle {
-  font-size: 2em;
+  display: block;
+  font-size: 1.5em;
   font-weight: 400;
   color: #444;
+}
+
+.header-subtitle {
+  max-width: 420px;
+  padding: 8px;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgb(236, 236, 236));
 }
 
 .link {
@@ -91,12 +137,16 @@ ul {
 
 .link:hover {
   background: linear-gradient(to right, rgb(24, 82, 190), rgb(28, 200, 190));
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 hr {
-  margin: 40px 0;
+  margin: 36px 0;
+}
+
+footer hr {
+  margin: 12px 0;
 }
 
 .start-screen img {
@@ -112,7 +162,7 @@ main article {
 }
 
 main h2 {
-  font-size: 2em;
+  font-size: 4em;
   text-align: center;
   color: rgb(28, 120, 190);
 }
@@ -167,18 +217,18 @@ article footer h3 sup {
   color: #444;
 }
 
-.credits, .topnav {
+.credits {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
   padding: 10px 0;
 }
 
 .credits div:not(:last-child),
 .topnav div:not(:last-child) {
-  border-right: 2px solid gray;
+  border-right: 2px solid #ddd
 }
 
 .credits div {
@@ -192,80 +242,83 @@ article footer h3 sup {
   font-weight: 500;
 }
 
-.credits h3, .topnav h3 {
-  font-size: 1em;
+.credits h3 {
+  font-size: 2em;
   color: rgb(28, 120, 190);
   font-weight: 400;
+}
+
+footer p,
+footer li,
+footer a {
+  padding: 8px 4px 0;
 }
 
 .footer {
   font-family: 'NunitoSans', sans-serif;
   font-weight: 400;
   color: #444;
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 20px auto 40px;
   display: flex;
   padding: 0 2%;
   justify-content: flex-start;
 }
 
-.dropdown-container {
-  max-width: 250px;
-  line-height: 25px;
-  font-size: 0.9em;
-  font-weight: 500;
-  padding: 20px 0;
-  position: absolute;
-  top: 35px;
-  background: #efefeff9;
-  transition: 0.2s opacity ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
-
-.dropdown-container li {
-  margin: 10px 0;
-  width: 70%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.dropdown-container img {
-  width: 90%;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-.topnav div:hover .dropdown-container {
-  visibility: visible;
-  opacity: 1;
-}
-
 @media screen and (max-width: 1000px) {
-  .title{font-size: 3em}
-  .credits{justify-content: center}
-  .credits h3{margin-top: 10px; text-align: center;}
-  .credits div{align-items: center; width: 33%}
-  .credits div:nth-child(3){border-right: none}
+  .title {
+    font-size: 3em;
+  }
+  .credits {
+    justify-content: center;
+  }
+  .credits h3 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .credits div {
+    align-items: center;
+    width: 33%;
+  }
+  .credits div:nth-child(3) {
+    border-right: none;
+  }
 }
 
 @media screen and (max-width: 700px) {
-  .credits div{align-items: center; width: 50%}
-  .credits div:nth-child(2){border-right: none;}
-  .credits div:nth-child(3){border-right: 2px solid gray}
-  .topnav h3{display:none}
-  .topnav img{margin: 0 auto;}
+  .credits div {
+    align-items: center;
+    width: 50%;
+  }
+  .credits div:nth-child(2) {
+    border-right: none;
+  }
+  .credits div:nth-child(3) {
+    border-right: 2px solid gray;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .header {font-size: 11px}
-  .title{font-size: 4em}
-  article footer{justify-content: center;}
+  .header {
+    padding-top: 16px;
+    font-size: 16px;
+  }
+  .title {
+    font-size: 2.8em;
+  }
+  .subtitle {
+    font-size: 1.9em;
+  }
+  hr {
+    margin: 12px 0;
+  }
+  .header-subtitle {
+    background: none;
+  }
+  article footer {
+    justify-content: center;
+  }
+  .credits h3 {
+    font-size: 1.6em;
+  }
 }

@@ -8,6 +8,7 @@ function showComnaniesList() {
     a.textContent = `${data.companies[i][0]}`;
     item.appendChild(a);
     a.href = `${data.companies[i][0].toLowerCase()}/index.html`
+    a.target = `_blank`
   }
 }
 

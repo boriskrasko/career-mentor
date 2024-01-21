@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
 
 * {
   margin: 0;
@@ -9,10 +10,54 @@
 body {
   min-width: 320px;
   background-image: url(../img/repeat-white-background-waves.jpg);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+ul {
+  list-style: none;
+}
+
+.topnav {
+  position: sticky;
+  max-width: 1280px;
+  margin: 0 auto;
+  top: 0;
+  z-index: 99;
+  padding: 0 8px;
+  box-shadow: 0 4px 8px #0004;
+  background-color: rgb(240, 162, 0);
+  background-color: #222;
+}
+
+.topnav__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.topnav a {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 400;
+}
+
+.topnav a:hover {
+  color: #ddd;
+}
+
+.topnav li {
+  padding: 4px 24px 4px 4px;
 }
 
 .table-contents {
-  width: 1024px;
+  max-width: 1280px;
   min-height: 80vh;
   margin: 0 auto;
   font-family: 'NunitoSans', sans-serif;
@@ -67,7 +112,7 @@ a {
   font-family: 'NunitoSans', sans-serif;
   font-weight: 400;
   color: #444;
-  width: 1024px;
+  width: 1280px;
   margin: 0 auto 20px;
   border: 2px solid #ddd;
   display: flex;
@@ -158,7 +203,7 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: 1px dashed #bbb;s
+  border-bottom: 1px dashed #bbb;
 }
 
 .article-content {
@@ -236,13 +281,13 @@ a {
   font-family: 'NunitoSans', sans-serif;
   font-weight: 400;
   color: #444;
-  width: 1024px;
+  width: 1280px;
   margin: 20px auto 40px;
   display: flex;
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .section, .header, .footer, .table-contents{width: 95%}
 }
 

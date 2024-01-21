@@ -8,20 +8,24 @@
  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header class="header">
-      <div class="header-icon">
-        <img src="../icons/team.svg" alt="team">
-      </div>
-      <div class="header-title">
-        <h3 class="all">ALL</h3>
-        <h3>PROFILE PRACODAWCÓW</h3>
-      </div>
-      <div class="homepage">
-        <a href="../index.html">
-          <img src="../icons/homepage.svg">
+  <nav class="topnav">
+    <ul class="topnav__list">
+      <li class="topbav__item">
+        <a class="topbav__link" href="../index.html">
+          HOME
         </a>
-      </div>
-  </header>
+      </li>
+      <li class="topbav__item">
+        <a class="topbav__link all">
+          POKAZAĆ WSYSTKIE
+        </a>
+      </li>
+      <li class="topbav__item">
+        <a class="topbav__link" href="../pages/index.html">
+          OFERTY
+        </a>
+      </li>
+  </nav>
   <div class="table-contents">
     <div class="article-content">
       <ul class="company-list"></ul>
@@ -53,11 +57,11 @@
         </div>
       </header>
       <div class="article-content">
-        <p class="about-company"></p>
+        <p class="description"></p>
       </div>
       <footer class="article-footer">
         <h4>LICZBA PRACOWNIKÓW: 
-          <span class="employees-count"></span>
+          <span class="employees"></span>
         </h4>
       </footer>
     </article>
@@ -71,7 +75,7 @@
         </div>
       </header>
       <div class="article-content">
-        <p class="advantages"></p>
+        <p class="opportunities"></p>
       </div>
     </article>
     <article class="article-container">
@@ -98,7 +102,7 @@
           </div>
         </header>
         <div class="article-content">
-          <ul class="beneficiary"></ul>
+          <ul class="benefits"></ul>
         </div>
       </article>
       <article class="article-container">
@@ -124,7 +128,7 @@
           </div>
         </header>
         <div class="article-content">
-          <ul class="branches"></ul>
+          <ul class="locations"></ul>
         </div>
       </article>
       <article class="article-container">
@@ -143,14 +147,14 @@
     </div>
     <footer class="section-footer">
       <h4>MIASTA, W KTÓRYCH MOŻESZ NAS SPOTKAĆ PODCZAS ABSOLVENT TALENT DAYS</h4>
-      <p class="event-cities"></p>
+      <p class="hiring-locations"></p>
     </footer>
     <hr width="97%" color="#bbb">
   </section>
   <footer class="footer">
      <h3>[MENTOR<span style="color:#0af">KARIERY</span>] 2020</h3>
   </footer>
- <script src="data.json"></script>
+ <script src="data.js"></script>
  <script src="main.js"></script>
 </body>
 </html>
