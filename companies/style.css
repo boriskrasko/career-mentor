@@ -58,6 +58,10 @@ h3, h4 {
   padding: 4px 24px 4px 4px;
 }
 
+.section {
+  padding: 0 16px;
+}
+
 .section, .table-contents {
   width: 1280px;
   min-height: 80vh;
