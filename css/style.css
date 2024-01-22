@@ -101,6 +101,7 @@ ul {
   font-weight: 600;
   background: linear-gradient(to right, rgb(24, 82, 190), rgb(28, 200, 190));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -138,6 +139,7 @@ ul {
 .link:hover {
   background: linear-gradient(to right, rgb(24, 82, 190), rgb(28, 200, 190));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
