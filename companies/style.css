@@ -301,4 +301,5 @@ a {
 
 @media screen and (max-width: 420px) {
   .header-title{font-size: 12px;}
+  .company-logo{max-width: 200px;}
 }
