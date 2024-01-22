@@ -18,6 +18,7 @@ let company;
 let id = 0;
 
 function showCompany(id) {
+  companyLogo.src = ``;
   company = data.companies[id].name.toLowerCase().replace(/\s/g, '');
   companyLogo.src = `logos/${company}.png`;
   companyLogo.setAttribute('alt', `${company} company logo`);
