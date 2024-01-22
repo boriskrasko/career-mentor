@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ING Tech Poland</title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      background-color: #ffffff;
+    }
+
+    a {
+      text-decoration: none;
+      color: #444;
+    }
+
+    body {
+      width: 1000px;
+      margin: 0 auto;
+      border: 1px solid #eee;
+      padding: 0 4px;
+      font-family: Roboto, sans-serif;
+      color: #444;
+      background-color: #f7f7f7;
+    }
+
+    ul {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 100px;
+      row-gap: 60px;
+      list-style: none;
+    }
+
+    li {
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      row-gap: 20px;
+      text-align: center;
+      color: #666;
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      font-size: 24px;
+    }
+
+    main a {
+      width: 160px;
+      height: 160px;
+      border-radius: 100px;
+      background-color: #FF6200;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main a:hover {
+      box-shadow: rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px, rgba(0, 0, 0, 0.2) 0px 3px 5px -1px;
+      border-color: rgb(255, 129, 51);
+    }
+
+    li img {
+      max-width: 90px;
+    }
+
+    td {
+      min-width: 100px;
+      height: 100px;
+      box-shadow: rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px, rgba(0, 0, 0, 0.2) 0px 3px 5px -1px;
+    }
+
+    td.orange {
+      background-color: #FF6200;
+    }
+
+    td.gray {
+      background-color: #444444;
+    }
+
+    td.hidden,
+    span.hidden {
+      visibility: hidden;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-end;
+      position: relative;
+    }
+
+    h1 {
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      font-size: 84px;
+      color: #444;
+      margin-left: -80px;
+    }
+
+    span.orange,
+    h2.orange {
+      color: #FF6200;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      font-size: 36px;
+    }
+
+    .logo img {
+      width: 260px;
+      position: absolute;
+      right: 60px;
+      top: 10px;
+    }
+
+    footer {
+      position: relative;
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+    }
+
+    .blocks {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+
+    .data {
+      width: calc(100% - 240px);
+      height: 200px;
+      margin-left: -80px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .item {
+      padding: 12px;
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      font-size: 21px;
+      display: flex;
+      align-items: flex-start;
+      column-gap: 8px;
+    }
+
+    .item a:hover {
+      color: #FF6200;
+    }
+
+    footer img {
+      display: block;
+      width: 36px;
+      margin-top: -8px;
+    }
+
+    .social img {
+      width: 28px;
+    }
+
+    .social-title span {
+      display: block;
+      background-color: #FF6200;
+      color: #FFFFFF;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    .social a:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <table>
+    <tr>
+      <td></td>
+      <td class="hidden"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="gray"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="hidden"></td>
+    </tr>
+  </table>
+  <h1><span></span>ING <span class="orange">Tech</span> Poland</h1>
+  <div class="logo">
+    <a href="https://inghubspoland.com">
+    <img src="ing.png">
+    </a>
+  </div>
+</header>
+<main>
+  <br><br><br>
+  <h2 class="orange">W tym się specjalizujemy:</h2>
+  <br><br>
+  <ul>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/administrator.svg">
+      </a>
+      Administracja systemami
+    </li>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/cloud.svg">
+      </a>
+      Bazy danych
+    </li>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/security.svg">
+      </a>
+      Bezpieczenstwo IT
+    </li>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/database.svg">
+      </a>
+      Big Data
+    </li>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/code.svg">
+      </a>
+      Programowanie
+    </li>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/web.svg">
+      </a>
+      Sieci IT
+    </li>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/settings.svg">
+      </a>
+      Robotyka
+    </li>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/analize.svg">
+      </a>
+      Modelowanie i walidacja ryzyka
+    </li>
+    <li>
+      <a href="https://inghubspoland.com/nasze-obszary">
+      <img src="icons/card.svg">
+      </a>
+      Obstuga kart ptatniczych
+    </li>
+  </ul>
+</main>
+<br><br><br>
+<footer>
+  <table>
+    <tr>
+      <td></td>
+      <td class="hidden"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="hidden"></td>
+    </tr>
+    <tr>
+      <td class="orange"></td>
+      <td></td>
+    </tr>
+  </table>
+  <table class="blocks">
+    <tr>
+      <td  class="hidden"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="gray"></td>
+    </tr>
+  </table>
+  <div class="data">
+    <h2 class="orange">Dołącz do nas!</h2>
+    <br>
+    <div class="grid-container">
+      <div class="item"><img src="icons/home.svg"><a href="https://maps.app.goo.gl/NNgZAwZgJPMjWR3bA">
+        Konduktorska 35<br>
+        40-155 Katowice</a>
+      </div>
+      <div class="item"><img src="icons/location.svg"><a href="https://maps.app.goo.gl/L3QRwQ5kDJzYoWtr8">
+        Zajecza 4<br>
+        00-351 Warszawa</a>
+      </div>
+      <div class="item social-title"><span>Odwiedz nas:</span></div>
+      <div class="item"><img src="icons/mail.svg"><a href="mailto:Career.TechPL@ing.com">Career.TechPL@ing.com</a></div>
+      <div class="item"><img src="icons/website.svg">
+        <a href="https://inghubspoland.com/">
+        inghubspoland.com</a>
+      </div>
+      <div class="item social">
+        <a href="https://www.facebook.com/inghubspoland/"><img src="icons/facebook.svg"></a>
+        <a href="https://www.linkedin.com/company/ing-hubs-poland/"><img src="icons/linkedin.svg"></a>
+        <a href="https://www.instagram.com/inghubspoland/"><img src="icons/instagram.svg"></a>
+        <a href="https://www.youtube.com/c/INGHubsPoland/videos"><img src="icons/youtube.svg"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,4 +1,4 @@
-data = {
+const data = {
   "companies": [
 
     [
@@ -7,6 +7,10 @@ data = {
   
     [
       "MILLENNIUM",
+    ],
+
+    [
+      "ING",
     ],
   ]
 }
