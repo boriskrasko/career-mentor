@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid gray;*/
+  /* outline: 1px solid gray; */
 }
 
 body {
@@ -56,6 +56,10 @@ h3, h4 {
 
 .topnav li {
   padding: 4px 24px 4px 4px;
+}
+
+.section {
+  padding: 0 16px;
 }
 
 .section, .table-contents {
@@ -246,6 +250,7 @@ a {
 
 .btns {
   width: 97%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -296,4 +301,5 @@ a {
 
 @media screen and (max-width: 420px) {
   .header-title{font-size: 12px;}
+  .company-logo{max-width: 200px;}
 }
