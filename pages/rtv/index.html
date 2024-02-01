@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kariera w Euro</title>
+    <style type="text/css">
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        a {
+          text-decoration: none;
+          color: #444;
+        }
+
+        body {
+          max-width: 1000px;
+          min-width: 370px;
+          min-height: 100vh;
+          margin: 0 auto;
+          background-color: rgb(33, 35, 39);
+          border: 2px solid #444;
+        }
+
+        .item__image {
+          min-width: 200px;
+        }
+
+        .poland {
+          width: 150px;
+        }
+
+        .cart {
+          width: 90px;
+          margin-left: -75px;
+          margin-bottom: 30px;
+          background: rgb(33, 35, 39);
+        }
+
+        .location {
+          width: 90px;
+          margin-left: -75px;
+          margin-bottom: 52.5px;
+          background: rgb(33, 35, 39);
+        }
+
+        .location-sm {
+          width: 37.5px;
+          margin-left: -127.5px;
+          margin-bottom: 52.5px;
+          background: rgb(33, 35, 39);
+        }
+
+        .cart-lg {
+          width: 150px;
+        }
+
+        .cursor {
+          width: 67.5px;
+          margin-left: -70px;
+          margin-bottom: -11.25px;
+          background: rgb(33, 35, 39);
+          border: 7.5px solid rgb(33, 35, 39);
+        }
+
+        .team {
+          width: 150px;
+        }
+
+        .grid-container {
+          max-width: 1000px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          gap: 10px;
+          background-image: url('poland_european.svg');
+          background-size: 50%;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        .item {
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+          font-size: 36px;
+        }
+
+        h4 {
+          font-family: Roboto, sans-serif;
+          font-weight: 300;
+          color: #fcf150;
+        }
+
+        .count {
+          color: #fcf150;
+          font-size: 84px;
+          font-weight: 400;
+        }
+
+        h1 {
+          font-family: Roboto, sans-serif;
+          font-weight: 400;
+          color: #fff;
+          font-size: 84px;
+          text-align: center;
+          margin-bottom: 50px;
+        }
+
+        h1 span {
+          font-size: 120px;
+          color: #fcf150;
+          font-weight: 700;
+        }
+
+        span.white {
+          color: #fff;
+        }
+
+        header {
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        .logo {
+          margin: 5px 20px;
+        }
+
+        .logo img {
+          width: 300px;
+        }
+
+        @media (max-width: 1000px) {
+          .grid-container {
+            max-width: 100%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            background-size: 70%;
+          }
+        }
+
+        .yellow {
+          height: 150px;
+          width: 100%;
+          background-color: #fcf150;
+          font-size: 24px;
+          color: #444;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: Roboto, sans-serif;
+          font-weight: 400;
+          padding: 32px;
+        }
+
+        .yellow a {
+          font-size: 44px;
+          font-weight: 700;
+          color: #222;
+        }
+
+        .apply-section {
+          margin: 50px auto;
+        }
+
+        .benefits {
+          max-width: 800px;
+          margin: 0 auto 50px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-items: center;
+          column-gap: 60px;
+          background-image: url('poland_european.svg');
+          background-size: 60%;
+          background-repeat: no-repeat;
+          background-position: center;
+          list-style: none;
+        }
+
+        .benefits>li {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: #eee;
+          text-align: center;
+          max-width: 180px;
+          font-family: Roboto, sans-serif;
+          line-height: 1.5em;
+        }
+
+        .benefit {
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+          background-color: #444;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 50px 50px 25px;
+        }
+
+        .benefit img {
+          width: 60%;
+        }
+
+        h3 {
+          color: #ddd;
+          text-align: center;
+          font-family: Roboto, sans-serif;
+          line-height: 1.5em;
+          margin: 10px auto 0;
+          font-weight: 700;
+          font-size: 32px;
+        }
+
+        @media (max-width: 500px) {
+          h1 {
+            font-size: 56px;
+          }
+
+          h1 span {
+            font-size: 70px;
+          }
+
+          .item {
+            font-size: 21px;
+          }
+
+          h2 {
+            font-size: 36px;
+          }
+
+          h2 a {
+            font-size: 32px !important;
+          }
+
+          .count {
+            font-size: 42px;
+          }
+
+          .logo img {
+            width: 200px;
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="https://karieraweuro.pl/">
+      <img src="euro-rtv-logo.png" alt="Euro Logo">
+      </a>
+    </header>
+    <section class="main-section">
+      <h1>WEJDŹ DO <br><span>ŚWIATA EURO!</span></h1>
+      <div class="grid-container">
+        <div class="item">
+          <div class="item__image">
+            <img class="team" src="icons/team.svg" alt="Team Icon">
+          </div>
+          <h4><span class="count">7000</span> <br>pracowników</h4>
+        </div>
+        <div class="item">
+          <div class="item__image">
+            <img class="cart-lg" src="icons/cart.svg" alt="Cart Icon">
+            <img class="cursor" src="icons/cursor.svg" alt="Cursor Icon">
+          </div>
+          <h4>Największy <br><span class="white">sklep</span> internetowy <br><span class="white">w Polsce</span></h4>
+        </div>
+        <div class="item">
+          <div class="item__image">
+            <img class="poland" src="icons/poland.svg" alt="Poland Icon">
+            <img class="cart" src="icons/cart.svg" alt="Cart Icon">
+          </div>
+          <h4><span class="white">Blisko </span><br><span class="count">300 <br></span>sklepów <br><span class="white">w całej Polsce</span></h4>
+        </div>
+        <div class="item">
+          <div class="item__image">
+            <img class="poland" src="icons/poland.svg" alt="Poland Icon">
+            <img class="location" src="icons/location.svg" alt="Location Icon">
+            <img class="location-sm" src="icons/location.svg" alt="Location Icon">
+          </div>
+          <h4><span class="white">Blisko</span><br> <span class="count">200 <br></span>miejscowości <br><span class="white">na mapie sieci</span></h4>
+        </div>
+      </div>
+    </section>
+    <section class="apply-section">
+      <div class="yellow">
+        <h2>Zrób kolejny krok i aplikuj na <a href="https://karieraweuro.pl/">www.karieraweuro.pl</a></h2>
+      </div>
+    </section>
+    <section class="benefits-section">
+      <h3>Oferujemy:</h3>
+      <ul class="benefits">
+        <li>
+          <div class="benefit">
+            <img src="icons/heart.svg" alt="Heart Icon">
+          </div>
+          BEZPŁATNĄ OPIEKĘ ZDROWOTNĄ
+        </li>
+        <li>
+          <div class="benefit">
+            <img src="icons/contract.svg" alt="Contract Icon">
+          </div>
+          UMOWĘ O PRACĘ
+        </li>
+        <li>
+          <div class="benefit">
+            <img src="icons/graph.svg" alt="Graph Icon">
+          </div>
+          ROZWÓJ
+        </li>
+        <li>
+          <div class="benefit">
+            <img src="icons/card.svg" alt="Card Icon">
+          </div>
+          KARTĘ MULTISPORT
+        </li>
+        <li>
+          <div class="benefit">
+            <img src="icons/friends.svg" alt="Friends Icon">
+          </div>
+          PRZYJAZNĄ ATMOSFERĘ
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
