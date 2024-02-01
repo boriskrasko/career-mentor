@@ -5,238 +5,250 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kariera w Euro</title>
     <style type="text/css">
-      /* Reset */
       * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      }
-      /* Links */
-      a {
-      text-decoration: none;
-      color: #444;
-      }
-      /* Body Styles */
-      body {
-      max-width: 1000px;
-      min-width: 370px;
-      min-height: 100vh;
-      margin: 0 auto;
-      background-color: rgb(33, 35, 39);
-      border: 2px solid #444;
-      }
-      /* Item Styles */
-      .item__image {
-      min-width: 200px;
-      }
-      .poland {
-      width: 150px;
-      }
-      .cart {
-      width: 90px;
-      margin-left: -75px;
-      margin-bottom: 30px;
-      background: rgb(33, 35, 39);
-      }
-      /* Location Styles */
-      .location {
-      width: 90px;
-      margin-left: -75px;
-      margin-bottom: 52.5px;
-      background: rgb(33, 35, 39);
-      }
-      .location-sm {
-      width: 37.5px;
-      margin-left: -127.5px;
-      margin-bottom: 52.5px;
-      background: rgb(33, 35, 39);
-      }
-      .cart-lg {
-      width: 150px;
-      }
-      /* Cursor Styles */
-      .cursor {
-      width: 67.5px;
-      margin-left: -60px;
-      margin-bottom: -11.25px;
-      background: rgb(33, 35, 39);
-      border: 7.5px solid rgb(33, 35, 39);
-      transform: rotate(10deg);
-      }
-      /* Team Styles */
-      .team {
-      width: 150px;
-      }
-      /* Grid Container Styles */
-      .grid-container {
-      max-width: 1000px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      gap: 10px;
-      background-image: url('poland_european.svg');
-      background-size: 50%;
-      background-repeat: no-repeat;
-      background-position: center;
-      }
-      /* Item Styles */
-      .item {
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-      font-size: 36px;
-      }
-      /* Header Styles */
-      h4 {
-      font-family: Roboto, sans-serif;
-      font-weight: 300;
-      color: #fcf150;
-      }
-      /* Count Styles */
-      .count {
-      color: #fcf150;
-      font-size: 84px;
-      font-weight: 400;
-      }
-      /* Heading Styles */
-      h1 {
-      font-family: Roboto, sans-serif;
-      font-weight: 400;
-      color: #fff;
-      font-size: 84px;
-      text-align: center;
-      margin-bottom: 50px;
-      }
-      h1 span {
-      font-size: 120px;
-      color: #fcf150;
-      font-weight: 700;
-      }
-      /* White Span Styles */
-      span.white {
-      color: #fff;
-      }
-      /* Header Styles */
-      header {
-      display: flex;
-      justify-content: flex-end;
-      }
-      /* Logo Styles */
-      .logo {
-      margin: 5px 20px;
-      }
-      .logo img {
-      width: 300px;
-      }
-      /* Media Queries */
-      @media (max-width: 1000px) {
-      .grid-container {
-      max-width: 100%;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      background-size: 70%;
-      }
-      }
-      /* Yellow Styles */
-      .yellow {
-      height: 150px;
-      width: 100%;
-      background-color: #fcf150;
-      font-size: 24px;
-      color: #444;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: Roboto, sans-serif;
-      font-weight: 400;
-      padding: 32px;
-      }
-      /* Yellow Link Styles */
-      .yellow a {
-      font-size: 44px;
-      font-weight: 700;
-      color: #222;
-      }
-      .apply-section {
-      margin: 50px auto;
-      }
-      /* Benefits Styles */
-      .benefits {
-      max-width: 800px;
-      margin: 0 auto 50px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-      column-gap: 60px;          
-      background-image: url('poland_european.svg');
-      background-size: 60%;
-      background-repeat: no-repeat;
-      background-position: center;
-      list-style: none;
-      }
-      /* Benefit Styles */
-      .benefits > li {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: #eee;
-      text-align: center;
-      max-width: 180px;
-      font-family: Roboto, sans-serif;
-      line-height: 1.5em;
-      }
-      /* Benefit Item Styles */
-      .benefit {
-      width: 100px;
-      height: 100px;
-      border-radius: 50px;
-      background-color: #444;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 50px 50px 25px;
-      }
-      /* Benefit Image Styles */
-      .benefit img {
-      width: 60%;
-      }
-      /* Heading 3 Styles */
-      h3 {
-      color: #ddd;
-      text-align: center;
-      font-family: Roboto, sans-serif;
-      line-height: 1.5em;
-      margin: 10px auto 0;
-      font-weight: 700;
-      font-size: 32px;
-      }
-      @media (max-width: 500px) {
-      h1 {
-      font-size: 56px;
-      }
-      h1 span {
-      font-size: 70px;
-      }
-      .item {
-      font-size: 21px;
-      }
-      h2 {
-      font-size: 36px;
-      }
-      h2 a {
-      font-size: 32px !important;
-      }
-      .count {
-      font-size: 42px;
-      }
-      .logo img {
-      width: 200px;
-      }
-      }
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        a {
+          text-decoration: none;
+          color: #444;
+        }
+
+        body {
+          max-width: 1000px;
+          min-width: 370px;
+          min-height: 100vh;
+          margin: 0 auto;
+          background-color: rgb(33, 35, 39);
+          border: 2px solid #444;
+        }
+
+        .item__image {
+          min-width: 200px;
+        }
+
+        .poland {
+          width: 150px;
+        }
+
+        .cart {
+          width: 90px;
+          margin-left: -75px;
+          margin-bottom: 30px;
+          background: rgb(33, 35, 39);
+        }
+
+        .location {
+          width: 90px;
+          margin-left: -75px;
+          margin-bottom: 52.5px;
+          background: rgb(33, 35, 39);
+        }
+
+        .location-sm {
+          width: 37.5px;
+          margin-left: -127.5px;
+          margin-bottom: 52.5px;
+          background: rgb(33, 35, 39);
+        }
+
+        .cart-lg {
+          width: 150px;
+        }
+
+        .cursor {
+          width: 67.5px;
+          margin-left: -70px;
+          margin-bottom: -11.25px;
+          background: rgb(33, 35, 39);
+          border: 7.5px solid rgb(33, 35, 39);
+        }
+
+        .team {
+          width: 150px;
+        }
+
+        .grid-container {
+          max-width: 1000px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          gap: 10px;
+          background-image: url('poland_european.svg');
+          background-size: 50%;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        .item {
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+          font-size: 36px;
+        }
+
+        h4 {
+          font-family: Roboto, sans-serif;
+          font-weight: 300;
+          color: #fcf150;
+        }
+
+        .count {
+          color: #fcf150;
+          font-size: 84px;
+          font-weight: 400;
+        }
+
+        h1 {
+          font-family: Roboto, sans-serif;
+          font-weight: 400;
+          color: #fff;
+          font-size: 84px;
+          text-align: center;
+          margin-bottom: 50px;
+        }
+
+        h1 span {
+          font-size: 120px;
+          color: #fcf150;
+          font-weight: 700;
+        }
+
+        span.white {
+          color: #fff;
+        }
+
+        header {
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        .logo {
+          margin: 5px 20px;
+        }
+
+        .logo img {
+          width: 300px;
+        }
+
+        @media (max-width: 1000px) {
+          .grid-container {
+            max-width: 100%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            background-size: 70%;
+          }
+        }
+
+        .yellow {
+          height: 150px;
+          width: 100%;
+          background-color: #fcf150;
+          font-size: 24px;
+          color: #444;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: Roboto, sans-serif;
+          font-weight: 400;
+          padding: 32px;
+        }
+
+        .yellow a {
+          font-size: 44px;
+          font-weight: 700;
+          color: #222;
+        }
+
+        .apply-section {
+          margin: 50px auto;
+        }
+
+        .benefits {
+          max-width: 800px;
+          margin: 0 auto 50px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-items: center;
+          column-gap: 60px;
+          background-image: url('poland_european.svg');
+          background-size: 60%;
+          background-repeat: no-repeat;
+          background-position: center;
+          list-style: none;
+        }
+
+        .benefits>li {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: #eee;
+          text-align: center;
+          max-width: 180px;
+          font-family: Roboto, sans-serif;
+          line-height: 1.5em;
+        }
+
+        .benefit {
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+          background-color: #444;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 50px 50px 25px;
+        }
+
+        .benefit img {
+          width: 60%;
+        }
+
+        h3 {
+          color: #ddd;
+          text-align: center;
+          font-family: Roboto, sans-serif;
+          line-height: 1.5em;
+          margin: 10px auto 0;
+          font-weight: 700;
+          font-size: 32px;
+        }
+
+        @media (max-width: 500px) {
+          h1 {
+            font-size: 56px;
+          }
+
+          h1 span {
+            font-size: 70px;
+          }
+
+          .item {
+            font-size: 21px;
+          }
+
+          h2 {
+            font-size: 36px;
+          }
+
+          h2 a {
+            font-size: 32px !important;
+          }
+
+          .count {
+            font-size: 42px;
+          }
+
+          .logo img {
+            width: 200px;
+          }
+        }
     </style>
   </head>
   <body>
