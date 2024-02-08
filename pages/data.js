@@ -4,11 +4,6 @@ const data = {
     [
       "AMAZON",
     ],
-  
-    [
-      "MILLENNIUM",
-    ],
-
     [
       "ING",
     ],
